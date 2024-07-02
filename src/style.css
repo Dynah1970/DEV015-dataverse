@@ -1,3 +1,84 @@
+.titulo-con-logo{
+  display: flex;
+ align-items: left;
+  justify-content:left; 
+  margin-top: 70;  /* Espacio superior opcional */
+}
+
+.titulo-con-logo img {
+  margin-right: 280px; /* Espacio entre el logo y el título */
+  max-height: 250px; /* Ajusta el tamaño de la imagen si es necesario */
+}
+.titulo-con-logo h1 {
+  margin: 0; /* Elimina el margen del título */
+}
+
+.button{
+  background-color: #7d91c7; /* Color de fondo */
+  border: none; /* Sin borde */
+  color: white; /* Color del texto */
+  padding: 15px 32px; /* Relleno interno */
+  text-align: center; /* Alineación del texto */
+  text-decoration: none; /* Sin subrayado */
+  display: inline-block; /* Mostrar en línea */
+  font-size: 16px; /* Tamaño de la fuente */
+  margin: 4px 2px; /* Márgenes */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  border-radius: 4px; /* Bordes redondeados */
+  transition: background-color 0.3s ease; /* Transición suave */
+
+}
+
+/* Estilo para cambiar el color del botón al pasar el ratón por encima */
+button:hover {
+  background-color: yellow; /* Color de fondo al pasar el ratón */
+}
+
+/* Estilos para los select (listas desplegables) */
+select {
+  background-color:rgb(110, 110, 221); /* Color de fondo */
+  border: 1px solid #0e0d0d; /* Borde */
+  color: #141212; /* Color del texto */
+  padding: 10px; /* Relleno interno */
+  font-size: 18px; /* Tamaño de la fuente */
+  border-radius: 4px; /* Bordes redondeados */
+  margin: 4px 2px; /* Márgenes */
+  transition: background-color 0.3s ease; /* Transición suave */
+}
+
+/* Estilo para cambiar el color del select al pasar el ratón por encima */
+select:hover {
+  background-color:rgb(219, 179, 179); /* Color de fondo al pasar el ratón */
+}
+
+/* Contenedor de botones y selects */
+.botones {
+  display:flexbox;
+  flex-direction:column;
+  align-items:center;
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+
+/* Estilos específicos para el botón de borrar */
+#clear {
+  background-color: yellow;
+  color: rgb(34, 29, 29);
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Estilo para cambiar el color del botón de borrar al pasar el ratón por encima */
+#clear:hover {
+  background-color: red;
+}
+
+
 /* Estilos para las tarjetas de Pokémon */
 ul#pokemon-list {
   list-style-type: none;

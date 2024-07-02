@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 
 <html lang="es">
+
 <head>
+
  <meta charset="UTF-8" />
  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
  <title>PokemonGame</title>
 <link rel="stylesheet" href="style.css" />
+
 </head>
+
  <body>
-<header>
- <h1>POKEMON</h1>
-</header>
+
+<header class="titulo-con-logo">
+ <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlN7Bom07sPG8XqsISovyOghFONslfqtoxXQ&usqp=CAU" alt="logo de pokemon">
 
 <main>
- <h2>Pokémon Cards</h2>
+
  <div class="botones desplegables">
  <label for="elemental"> ELEMENTOS:</label>
  <select id="elemental" name="elementos" data-testid="select-elementos">
@@ -34,6 +38,8 @@
  <option value="Siniestro">Siniestro</option>
  <option value="Dragon">Dragon</option>
   </select>
+
+
 
  <label for="weakness"> DEBILIDAD:</label>
  <select id="weakness" name="debilidad" data-testid="select-debilidad">
@@ -57,6 +63,8 @@
  <option value="Dragon">Dragon</option>
   </select>
 
+
+
  <label for="order">CARACTERISTICA:</label>
  <select id="order" name="ordenar" data-testid="select-ordenar">
  <option value="Numero">Numero</option>
@@ -66,6 +74,8 @@
  <option value="Defensa">Defensa</option>
  <option value="Velocidad">Velocidad</option>
   </select>
+
+
 
  <label for="word">FILTRAR POR LETRA:</label>
  <select id="word" name="alfabeto">
@@ -99,17 +109,23 @@
  <option value="Z - A">Z - A</option>
   </select>
 
- <button id="clear" data-testid="button-borrar">BORRAR/GRACIAS</button>
-  </div>
+
+  <button id="clear" data-testid="button-borrar">BORRAR</button>
+
+  </header>
+
+  <h1>Pokémon Cards</h1>
+
+</div>
 
  <div id="root">
-  <ul
-  id="pokemon-list"
-  itemscope
-  itemtype="http://schema.org/ItemList"
-  ></ul>
-  </div>
-  </main>
+ <ul
+ id="pokemon-list"
+ itemscope
+ itemtype="http://schema.org/ItemList"
+ ></ul>
+ </div>
+ </main>
 
  <script src="main.js" type="module"></script>
 
