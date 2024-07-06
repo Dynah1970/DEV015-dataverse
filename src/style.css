@@ -1,245 +1,110 @@
-.titulo-con-logo{
+/* Estilos para el contenedor principal */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para el encabezado con el logo */
+.titulo-con-logo {
   display: flex;
- align-items: left;
-  justify-content:left; 
-  margin-top: 70;  /* Espacio superior opcional */
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  background-color: #333;
+  color: white;
 }
 
 .titulo-con-logo img {
-  margin-right: 280px; /* Espacio entre el logo y el título */
-  max-height: 250px; /* Ajusta el tamaño de la imagen si es necesario */
+  max-height: 80px;
+  margin-right: 40px; /* Aumento del margen derecho para más espacio */
 }
+
 .titulo-con-logo h1 {
-  margin: 0; /* Elimina el margen del título */
+  margin: 0;
+  font-size: 2em; /* Título un poco más grande */
 }
 
-.button{
-  background-color: #7d91c7; /* Color de fondo */
-  border: none; /* Sin borde */
-  color: white; /* Color del texto */
-  padding: 15px 32px; /* Relleno interno */
-  text-align: center; /* Alineación del texto */
-  text-decoration: none; /* Sin subrayado */
-  display: inline-block; /* Mostrar en línea */
-  font-size: 16px; /* Tamaño de la fuente */
-  margin: 4px 2px; /* Márgenes */
-  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
-  border-radius: 4px; /* Bordes redondeados */
-  transition: background-color 0.3s ease; /* Transición suave */
-
-}
-
-/* Estilo para cambiar el color del botón al pasar el ratón por encima */
-button:hover {
-  background-color: yellow; /* Color de fondo al pasar el ratón */
-}
-
-/* Estilos para los select (listas desplegables) */
-select {
-  background-color:rgb(110, 110, 221); /* Color de fondo */
-  border: 1px solid #0e0d0d; /* Borde */
-  color: #141212; /* Color del texto */
-  padding: 10px; /* Relleno interno */
-  font-size: 18px; /* Tamaño de la fuente */
-  border-radius: 4px; /* Bordes redondeados */
-  margin: 4px 2px; /* Márgenes */
-  transition: background-color 0.3s ease; /* Transición suave */
-}
-
-/* Estilo para cambiar el color del select al pasar el ratón por encima */
-select:hover {
-  background-color:rgb(219, 179, 179); /* Color de fondo al pasar el ratón */
-}
-
-/* Contenedor de botones y selects */
+/* Estilos para el contenedor de botones y selects */
 .botones {
-  display:flexbox;
-  flex-direction:column;
-  align-items:center;
-  margin-top: 50px;
-  font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
 }
 
-
-/* Estilos específicos para el botón de borrar */
-#clear {
-  background-color: yellow;
-  color: rgb(34, 29, 29);
-  padding: 10px 20px;
-  font-size: 16px;
+.botones select,
+.botones button {
+  padding: 10px;
+  font-size: 14px;
   border-radius: 4px;
-  margin: 10px;
   cursor: pointer;
+  margin-right: 10px; /* Espacio entre botones */
+}
+
+/* Colores para los botones desplegables */
+.botones select:nth-of-type(1) {
+  background-color: yellow; /* Amarillo */
+  color: black;
+}
+
+.botones select:nth-of-type(2) {
+  background-color: blue; /* Azul */
+  color: white;
+}
+
+.botones select:nth-of-type(3) {
+  background-color: white; /* Blanco */
+  color: black;
+}
+
+.botones select:nth-of-type(4) {
+  background-color: green; /* Verde */
+  color: white;
+}
+
+/* Estilos para el botón "BORRAR" */
+#clear {
+  background-color: #ff4500; /* Naranja */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
   transition: background-color 0.3s ease;
 }
 
-/* Estilo para cambiar el color del botón de borrar al pasar el ratón por encima */
 #clear:hover {
-  background-color: red;
+  background-color: #cc3700; /* Naranja más oscuro al hacer hover */
 }
 
-
-/* Estilos para las tarjetas de Pokémon */
+/* Estilos para la lista de Pokémon */
 ul#pokemon-list {
   list-style-type: none;
-  padding: 0;
+  padding: 20px;
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  justify-content: center;
+  background-color: #333; /* Fondo negro para el contenedor de las tarjetas */
 }
 
 ul#pokemon-list li {
-  width: 200px;
-  background-color: #f0f0f0;
-  border: 1px solid #ccc;
-  padding: 10px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-ul#pokemon-list li img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-}
-
-ul#pokemon-list li h2 {
-  font-size: 1.2em;
-  margin-top: 0.5em;
-}
-
-ul#pokemon-list li p {
-  font-size: 0.9em;
-  margin-top: 0.5em;
-}
-
-ul#pokemon-list li div {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-ul#pokemon-list li div div {
-  display: none;
-  height: 100%;
-  overflow: auto;
-  border: 1px solid #ccc;
-  background-color: #f0f0f0;
-  border-radius: 8px;
-  padding: 10px;
-}
-
-ul#pokemon-list li:hover div div {
-  display: block;
-}
-ul#pokemon-list li div div {
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(240, 240, 240, 0.95); /* Fondo semi-transparente */
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  padding: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  overflow-y: auto;
-}
-
-ul#pokemon-list li:hover div div {
-  display: block;
-}
-ul#pokemon-list {
-  list-style-type: none;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
-ul#pokemon-list li {
-  width: 200px;
-  background-color: #f0f0f0;
-  border: 1px solid #ccc;
-  padding: 10px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  position: relative; /* Necesario para el posicionamiento del cuadro de datos curiosos */
-}
-
-ul#pokemon-list li img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-}
-
-ul#pokemon-list li h3 {
-  font-size: 1.2em;
-  margin-top: 0.5em;
-}
-
-ul#pokemon-list li p {
-  font-size: 0.9em;
-  margin-top: 0.5em;
-}
-
-.pokemon-list li .facts {
-  display: none;
+  width: 250px;
   background-color: #fff;
   border: 1px solid #ccc;
-  padding: 10px;
-  margin-top: 10px;
+  padding: 15px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  z-index: 10;
-  width: calc(100% - 20px);
-}
-
-.pokemon-list li:hover .facts {
-  display: block;
-}
-
-.pokemon-list li .facts h4 {
-  margin: 0;
-  font-size: 1.1em;
-  color: #333;
-}
-
-.pokemon-list li .facts p {
-  font-size: 0.9em;
-  color: #666;
-  margin: 0.5em 0 0 0;
-}
-
-/* Estilos para las tarjetas de Pokémon */
-ul#pokemon-list {
-  list-style-type: none;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
-ul#pokemon-list li {
-  width: 200px;
-  background-color: #f0f0f0;
-  border: 1px solid #ccc;
-  padding: 10px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  position: relative; /* Necesario para el posicionamiento del cuadro de datos curiosos */
-  overflow: hidden; /* Oculta el cuadro de datos curiosos inicialmente */
-  transition: transform 0.3s ease-in-out; /* Transición suave para el efecto de escala */
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease;
 }
 
 ul#pokemon-list li:hover {
-  transform: scale(1.05); /* Efecto de escala al hacer hover */
+  transform: scale(1.03);
 }
 
 ul#pokemon-list li img {
@@ -258,35 +123,48 @@ ul#pokemon-list li p {
   margin-top: 0.5em;
 }
 
-ul#pokemon-list li .facts {
-  display: none; /* Oculta datos curiosos inicialmente */
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 10;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(240, 240, 240, 0.95); /* Fondo semi-transparente */
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  padding: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  overflow-y: auto;
+ul#pokemon-list li .details {
+  display: none;
+  padding-top: 10px;
 }
 
-ul#pokemon-list li:hover .facts {
-  display: block; /* Muestra datos curiosos al hacer hover */
+ul#pokemon-list li .details p {
+  margin-top: 5px;
 }
 
-ul#pokemon-list li .facts h4 {
-  margin: 0;
-  font-size: 1.1em;
-  color: #333;
+ul#pokemon-list li .read-more-button {
+  background-color: #ff4500; /* Naranja */
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
 }
 
-ul#pokemon-list li .facts p {
-  font-size: 0.9em;
-  color: #666;
-  margin: 0.5em 0 0 0;
+ul#pokemon-list li .read-more-button:hover {
+  background-color: #cc3700; /* Naranja más oscuro al hacer hover */
 }
 
+ul#pokemon-list li:hover .details {
+  display: block;
+}
+.hidden {
+  display: none;
+}
+/* Estilos para el botón "Leer más" y "Leer menos" */
+.flip-btn {
+  background-color: red; /* Cambia el color a rojo */
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.flip-btn:hover {
+  background-color: darkred; /* Color más oscuro al hacer hover */
+}
