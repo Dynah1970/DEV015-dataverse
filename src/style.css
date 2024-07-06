@@ -18,7 +18,7 @@ body {
 
 .titulo-con-logo img {
   max-height: 80px;
-  margin-right: 20px;
+  margin-right: 40px; /* Aumento del margen derecho para más espacio */
 }
 
 .titulo-con-logo h1 {
@@ -40,6 +40,7 @@ body {
   font-size: 14px;
   border-radius: 4px;
   cursor: pointer;
+  margin-right: 10px; /* Espacio entre botones */
 }
 
 /* Colores para los botones desplegables */
@@ -122,68 +123,6 @@ ul#pokemon-list li p {
   margin-top: 0.5em;
 }
 
-ul#pokemon-list li .facts {
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 10;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(240, 240, 240, 0.95);
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  padding: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  overflow-y: auto;
-}
-
-ul#pokemon-list li:hover .facts {
-  display: block;
-}
-/* Estilos para la lista de Pokémon */
-ul#pokemon-list {
-  list-style-type: none;
-  padding: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
-  background-color: #333; /* Fondo negro para el contenedor de las tarjetas */
-}
-
-ul#pokemon-list li {
-  width: 250px;
-  background-color: #fff;
-  border: 1px solid #ccc;
-  padding: 15px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  position: relative;
-  overflow: hidden;
-  transition: transform 0.3s ease;
-}
-
-ul#pokemon-list li:hover {
-  transform: scale(1.03);
-}
-
-ul#pokemon-list li img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-}
-
-ul#pokemon-list li h3 {
-  font-size: 1.2em;
-  margin-top: 0.5em;
-}
-
-ul#pokemon-list li p {
-  font-size: 0.9em;
-  margin-top: 0.5em;
-}
-
 ul#pokemon-list li .details {
   display: none;
   padding-top: 10px;
@@ -207,13 +146,16 @@ ul#pokemon-list li .read-more-button {
 ul#pokemon-list li .read-more-button:hover {
   background-color: #cc3700; /* Naranja más oscuro al hacer hover */
 }
-ul#pokemon-list li .details {
-  display: none;
-  padding-top: 10px;
-}
 
-ul#pokemon-list li .read-more-button {
-  background-color: #ff4500; /* Naranja */
+ul#pokemon-list li:hover .details {
+  display: block;
+}
+.hidden {
+  display: none;
+}
+/* Estilos para el botón "Leer más" y "Leer menos" */
+.flip-btn {
+  background-color: red; /* Cambia el color a rojo */
   color: white;
   border: none;
   padding: 8px 12px;
@@ -223,91 +165,6 @@ ul#pokemon-list li .read-more-button {
   transition: background-color 0.3s ease;
 }
 
-ul#pokemon-list li .read-more-button:hover {
-  background-color: #cc3700; /* Naranja más oscuro al hacer hover */
+.flip-btn:hover {
+  background-color: darkred; /* Color más oscuro al hacer hover */
 }
-
-ul#pokemon-list li:hover .details {
-  display: block;
-}
-body {
-    font-family: Arial, sans-serif;
-}
-
-.titulo-con-logo {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-h1 {
-    margin: 20px 0;
-}
-
-.botones-desplegables {
-    display: flex;
-    gap: 10px;
-    margin-bottom: 20px;
-}
-
-#pokemon-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
-.pokemon-card {
-    border: 1px solid #ccc;
-    padding: 10px;
-    width: 200px;
-    position: relative;
-}
-
-.pokemon-name {
-    font-size: 1.5em;
-    margin-bottom: 10px;
-}
-
-.pokemon-description {
-    font-size: 1em;
-    margin-bottom: 10px;
-}
-
-.pokemon-details {
-    display: none;
-    font-size: 0.9em;
-}
-
-.boton-leer-mas {
-    background-color: #f8d030;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-.boton-leer-mas:hover {
-    background-color: #f7c912;
-}
-
-.hidden {
-    display: none;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
