@@ -137,10 +137,10 @@ La aplicación debió aprobar los siguientes test para considerarse como un buen
 #### HTML
 - **Uso de HTML semántico**
   - Tiene un `<header>` con con un logotipo de Pokémon y un título principal <h1>.
-  - Tiene un `<footer>`con un párrafo que menciona a los desarrolladores del programa..
+  - Tiene un `<footer>`con un párrafo que menciona a los desarrolladores del programa.
   - Tiene un `<main>` que contiene secciones de controles (entradas y selecciones) para filtrar y ordenar los Pokémon.
   - Todas las etiquetas de controles (select) tienen `<label>`.
-  - `<ul>` está usado  para mostrar los datos de los Pokémon..
+  - `<ul>` está usado  para mostrar los datos de los Pokémon.
   - Los hijos de `<li>` usan atributos de microdata `itemscope` e `itemprop`.
 
 #### CSS
