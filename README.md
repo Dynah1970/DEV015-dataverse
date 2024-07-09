@@ -18,29 +18,23 @@
 
 ## 1. INTRODUCCIÓN 
 
-En este proyecto, nos sumergimos en el mundo de la inteligencia artificial para generar un conjunto de datos único. La magia se revela a través de una renderización en HTML mediante JavaScript, creando una experiencia visual cautivadora. Este conjunto de datos,
-presentado de manera accesible, adopta la forma de tarjetas de información y se presta a una exploración profunda gracias a filtros interactivos y acumulativos.
+En este proyecto, nos sumergimos en el mundo de la inteligencia artificial para generar un conjunto de datos único. La magia se revela a través de una renderización en HTML mediante JavaScript, creando una experiencia visual cautivadora. Este conjunto de datos, presentado de manera accesible, adopta la forma de tarjetas de información y se presta a una exploración profunda gracias a filtros interactivos y acumulativos.
 
-La interacción del usuario se potencia con herramientas estadísticas que brindan una comprensión más profunda de la información disponible. Cada tarjeta es una ventana a datos precisos, mientras que los filtros, diseñados para ser intuitivos, permiten una
-personalización dinámica de la visualización. En este viaje, fusionamos la potencia de la inteligencia artificial con la flexibilidad de la renderización web, ofreciendo una plataforma que no solo informa, sino que también invita a la exploración y
-descubrimiento. 
+La interacción del usuario se potencia con herramientas estadísticas que brindan una comprensión más profunda de la información disponible. Cada tarjeta es una ventana a datos precisos, mientras que los filtros, diseñados para ser intuitivos, permiten una personalización dinámica de la visualización. En este viaje, fusionamos la potencia de la inteligencia artificial con la flexibilidad de la renderización web, ofreciendo una plataforma que no solo informa, sino que también invita a la exploración y descubrimiento. 
 
 ## 2. RESUMEN
 
 ![Vista previa del proyecto](link a tu imagen de vista previa del proyecto)
 
-En este proyecto, desarrollamos una página web para explorar un conjunto de datos creado mediante la inteligencia artificial a través de instrucciones específicas. La estructura de la página se ajustó considerando las necesidades de los usuarios, utilizando
-historias de usuario para su adaptación.
+En este proyecto, desarrollamos una página web para explorar un conjunto de datos creado mediante la inteligencia artificial a través de instrucciones específicas. La estructura de la página se ajustó considerando las necesidades de los usuarios, utilizando historias de usuario para su adaptación.
 
-La interfaz consta de diversos filtros que permiten refinar, agrupar y organizar el conjunto de datos, presentando un conjunto de tarjetas con información detallada sobre el tema. Además, se incorporó un botón que posibilita "limpiar" cada campo y regresar a la
-visualización predeterminada de datos (inicio).
+La interfaz consta de diversos filtros que permiten refinar, agrupar y organizar el conjunto de datos, presentando un conjunto de tarjetas con información detallada sobre el tema. Además, se incorporó un botón que posibilita "limpiar" cada campo y regresar a la visualización predeterminada de datos (inicio).
 
 Dado que utilizamos distintos dispositivos en la actualidad, implementamos consultas de medios mediante CSS en la aplicación para asegurar una visualización óptima tanto en dispositivos móviles como en computadoras, facilitando el acceso a la información.
 
 ## 3. PROMPT UTILIZADO
 
-En esta ocasión, nos hemos apoyado en la inteligencia artificial para generar nuestra propia base de datos. Decidimos crear una página dedicada a tarjetas de Pokemon.Los datos que solicitamos para construir nuestro
-conjunto de datos son los siguientes:
+En esta ocasión, nos hemos apoyado en la inteligencia artificial para generar nuestra propia base de datos. Decidimos crear una página dedicada a tarjetas de Pokemon. Los datos que solicitamos para construir nuestro conjunto de datos son los siguientes:
 
 1. ID:
 2. Nombre:
@@ -63,87 +57,110 @@ conjunto de datos son los siguientes:
 El total de Pokemones en nuestro dataset es de 24.
 
 ## 4. PROTOTIPO DE BAJA Y ALTA FIDELIDAD
-Esta aplicación web ha sido construida a partir de dos tipos de prototipos: uno de baja fidelidad y otro de alta fidelidad. Ambos prototipos han sido cuidadosamente diseñados para incorporar requisitos esenciales, garantizando así una plataforma fácil de utilizar
-para cualquier usuario.
+
+Esta aplicación web ha sido construida a partir de dos tipos de prototipos: uno de baja fidelidad y otro de alta fidelidad. Ambos prototipos han sido cuidadosamente diseñados para incorporar requisitos esenciales, garantizando así una plataforma fácil de utilizar para cualquier usuario.
 
 ### Prototipo de baja fidelidad
 
-Se comenzó el diseño con un boceto rápido a mano para la interfaz de usuario. En esta fase, el enfoque se centra en la disposición general de los elementos en la página. Se identificaron los elementos esenciales que se quería incorporar en la interfaz, como las
-tarjetas, filtros e información. Este enfoque manual permite experimentar con varias ideas y conceptos antes de avanzar a etapas más detalladas del diseño.
+Se comenzó el diseño con un boceto rápido a mano para la interfaz de usuario. En esta fase, el enfoque se centra en la disposición general de los elementos en la página. Se identificaron los elementos esenciales que se quería incorporar en la interfaz, como las tarjetas, filtros e información. Este enfoque manual permite experimentar con varias ideas y conceptos antes de avanzar a etapas más detalladas del diseño.
 
 ### Prototipo de alta fidelidad
 
-El prototipo de alta fidelidad fue diseñado utilizando la aplicación CANVA. En este proceso, se establecieron elementos clave, como la paleta de colores, el estilo visual y el funcionamiento inicial. Este prototipo de alta fidelidad sirve como una representación
-avanzada y detallada de la visión conceptual.
+El prototipo de alta fidelidad fue diseñado utilizando la aplicación CANVA. En este proceso, se establecieron elementos clave, como la paleta de colores, el estilo visual y el funcionamiento inicial. Este prototipo de alta fidelidad sirve como una representación avanzada y detallada de la visión conceptual.
 
 ## 5. HISTORIAS DE USUARIO
 
-En el desarrollo de las historias de usuario, se ha seguido un enfoque centrado en el visitante, incorporando una serie de preguntas que consideran las necesidades y expectativas del navegante final. Estas preguntas han sido fundamentales para estructurar un
-proceso lógico e intuitivo dentro de la aplicación web.
+En el desarrollo de las historias de usuario, se ha seguido un enfoque centrado en el visitante, incorporando una serie de preguntas que consideran las necesidades y expectativas del navegante final. Estas preguntas han sido fundamentales para estructurar un proceso lógico e intuitivo dentro de la aplicación web.
 
-A partir de las respuestas recopiladas, se ha implementado un plan de trabajo que ha permitido establecer objetivos claros. Este enfoque ha sido esencial para diseñar una serie de prototipos que aborden de manera específica las necesidades planteadas en las
-historias de usuario. Este proceso orientado al usuario ha sido clave para asegurar que la aplicación no solo cumpla con los requisitos técnicos, sino que también ofrezca una experiencia satisfactoria y efectiva para el visitante final.
+A partir de las respuestas recopiladas, se ha implementado un plan de trabajo que ha permitido establecer objetivos claros. Este enfoque ha sido esencial para diseñar una serie de prototipos que aborden de manera específica las necesidades planteadas en las historias de usuario. Este proceso orientado al usuario ha sido clave para asegurar que la aplicación no solo cumpla con los requisitos técnicos, sino que también ofrezca una experiencia satisfactoria y efectiva para el visitante final.
+
+Para consultar las siguientes historias de usuario, puedes entrar a este enlace.
 
 ## 6. FUNCIONALIDADES
 
 ### Características principales de las Tarjetas Pokémon
-Visualización dinámica y atractiva de tarjetas Pokémon en formato semántico <div>.
-Resalta nombre, elemento, generación, número, rareza, pequeña descripción, descripción, debilidad, ataque, defensa, velocidad, datos curiosos, habilidad, color principal.
-Filtrado y ordenamiento por elementos, debilidad, características, y alfabéticamente.
-Interfaz semántica con microdatos (itemscope, itemtype, itemprop).
-Estadísticas dinámicas sobre cantidad y tipos de Pokémon.
-Controles <select> para filtros y botón de reinicio.
-Operaciones acumulativas de filtrado y ordenamiento.
-Funcionalidad "Leer más" para revelar información adicional.
-Diseño adaptable para móviles, tablets y desktops
+
+- Visualización dinámica y atractiva de tarjetas Pokémon en formato semántico `<div>`.
+- Resalta nombre, elemento, generación, número, rareza, pequeña descripción, descripción, debilidad, ataque, defensa, velocidad, datos curiosos, habilidad, color principal.
+- Filtrado y ordenamiento por elementos, debilidad, características, y alfabéticamente.
+- Interfaz semántica con microdatos (`itemscope`, `itemtype`, `itemprop`).
+- Estadísticas dinámicas sobre cantidad y tipos de Pokémon.
+- Controles `<select>` para filtros y botón de reinicio.
+- Operaciones acumulativas de filtrado y ordenamiento.
+- Funcionalidad "Leer más" para revelar información adicional.
+- Diseño adaptable para móviles, tablets y desktops.
 
 ## 7. CONSIDERACIONES TÉCNICAS
 
 La aplicación web está compuesta por varios tipos de archivos, incluyendo aquellos escritos en los lenguajes HTML, JavaScript (JS) y CSS:
 
-- src/index.html
-- src/main.js
-- dataset.js
-- src/dataFunctions.js (incluye la función computeStats(data))
-- src/data
-- test/dataFunctions.spec.js
-- test/data.js
-- src/view.js (incluye la función renderItems(data))
+- `src/index.html`
+- `src/main.js`
+- `dataset.js`
+- `src/dataFunctions.js` (incluye la función `computeStats(data)`)
+- `src/data`
+- `test/dataFunctions.spec.js`
+- `test/data.js`
+- `src/view.js` (incluye la función `renderItems(data)`)
 
-## 8. PRUEBAS UNITARIAS
-
-A lo largo del proyecto, hemos implementado un total de 10 pruebas unitarias que evalúan el funcionamiento de los filtros de Género, Punto de Vista (POV) y los ordenamientos ascendente y descendente. Estas pruebas unitarias han sido diseñadas para garantizar la
-integridad y precisión de estas funcionalidades dentro de la aplicación. Estas pruebas se ejecutan utilizando el comando npm run test.
+A lo largo del proyecto, hemos implementado un total de 10 pruebas unitarias que evalúan el funcionamiento de los filtros de Género, Punto de Vista (POV) y los ordenamientos ascendente y descendente. Estas pruebas unitarias han sido diseñadas para garantizar la integridad y precisión de estas funcionalidades dentro de la aplicación. Estas pruebas se ejecutan utilizando el comando `npm run test`.
 
 ## 9. DEPLOY
 
-La aplicación se encuentra publicada a través de Github Pages, accesible a todo usuario:
+La aplicación se encuentra publicada a través de Github Pages, accesible a todo usuario.
 
 ## 10. CRITERIOS DE ACEPTACIÓN MÍNIMOS DEL PROYECTO
 
 ### Criterios de código
 
-La aplicación debió aprobar los siguientes test para considerarse como un buen proyecto a nivel estructural.
+La aplicación debió aprobar los siguientes test para considerarse como un buen proyecto a nivel estructural:
 
-- npm run test:oas-html
-- npm run test:oas-css
-- npm run test:oas-web-api
-- npm run test:oas-js
-- npm run test:oas-prompting
-- npm run test:oas
+- `npm run test:oas-html`
+- `npm run test:oas-css`
+- `npm run test:oas-web-api`
+- `npm run test:oas-js`
+- `npm run test:oas-prompting`
+- `npm run test:oas`
 
 #### HTML
 
 - **Uso de HTML semántico**
-  - Tiene una estructura de etiquetas adecuada que facilita la accesibilidad y la comprensión del contenido.
+  - Tiene un `<header>` con `<h1>`.
+  - Tiene un `<footer>`.
+  - Tiene un `<main>` con `<h2>`.
+  - Todas las etiquetas de controles (inputs y select) tienen `<label>`.
+  - `<ul>` está usado para dibujar la data.
+  - Los hijos de `<li>` usan atributos de microdata `itemscope` e `itemprop`.
 
 #### CSS
 
-- **Estilo visual coherente**
-  - Implementa reglas de estilo que mantienen una apariencia visual coherente y atractiva en toda la aplicación.
+- **Uso de selectores de CSS**
+  - Uso de selector class para los items `<li>`.
+  - Uso de flexbox en sentido row y column.
+  - Uso de flexbox para el elemento que contiene los items.
+  - Uso de flexbox para el elemento que contiene los UI inputs.
+
+#### Web APIs
+
+- Uso de selectores del DOM.
+- Manejo de eventos del DOM (listeners, propagación, delegación).
+- Manipulación dinámica del DOM.
 
 #### JavaScript
 
-- **Funcionalidad interactiva**
-  - Las funciones implementadas permiten
+- Variables (declaración, asignación, ámbito).
+- Uso de condicionales (`if-else`, `switch`, operador ternario, lógica booleana).
+- Funciones (params, args, return).
+- Arrays (arreglos).
+- Objetos.
+- Módulos de ECMAScript (ES Modules).
+
+## 11. DESARROLLADOR DEL PROYECTO
+
+Información sobre Las desarrolladoras del proyecto:
+- Daniela Trejo
+- Dinah Gomez
+
+
+
 
