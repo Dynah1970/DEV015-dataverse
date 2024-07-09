@@ -136,6 +136,7 @@ La aplicación debió aprobar los siguientes test para considerarse como un buen
 
 #### HTML
 
+
 - **Uso de HTML semántico**
   - Tiene un `<header>` con con un logotipo de Pokémon y un título principal <h1>.
   - Tiene un `<footer>`con un párrafo que menciona a los desarrolladores del programa..
