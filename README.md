@@ -35,7 +35,7 @@ Dado que utilizamos distintos dispositivos en la actualidad, implementamos consu
 ## 3. PROMPT UTILIZADO
 
 En esta ocasión, nos hemos apoyado en la inteligencia artificial para generar nuestra propia base de datos. Decidimos crear una página dedicada a tarjetas de Pokemon. Los datos que solicitamos para construir nuestro conjunto de datos son los siguientes:
-
+<img width="471" alt="image" src="https://github.com/Dynah1970/DEV015-dataverse/assets/169708716/1387069d-a4f8-4777-93b5-449524435fa9">
 1. ID:
 2. Nombre:
 3. ELEMENTO:
