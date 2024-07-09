@@ -25,8 +25,6 @@ La interacción del usuario se potencia con herramientas estadísticas que brind
 personalización dinámica de la visualización. En este viaje, fusionamos la potencia de la inteligencia artificial con la flexibilidad de la renderización web, ofreciendo una plataforma que no solo informa, sino que también invita a la exploración y
 descubrimiento. 
 
-***
-
 ## 2. RESUMEN
 
 ![Vista previa del proyecto](link a tu imagen de vista previa del proyecto)
@@ -38,8 +36,6 @@ La interfaz consta de diversos filtros que permiten refinar, agrupar y organizar
 visualización predeterminada de datos (inicio).
 
 Dado que utilizamos distintos dispositivos en la actualidad, implementamos consultas de medios mediante CSS en la aplicación para asegurar una visualización óptima tanto en dispositivos móviles como en computadoras, facilitando el acceso a la información.
-
-***
 
 ## 3. PROMPT UTILIZADO
 
@@ -66,8 +62,6 @@ conjunto de datos son los siguientes:
 
 El total de Pokemones en nuestro dataset es de 24.
 
-***
-
 ## 4. PROTOTIPO DE BAJA Y ALTA FIDELIDAD
 Esta aplicación web ha sido construida a partir de dos tipos de prototipos: uno de baja fidelidad y otro de alta fidelidad. Ambos prototipos han sido cuidadosamente diseñados para incorporar requisitos esenciales, garantizando así una plataforma fácil de utilizar
 para cualquier usuario.
@@ -82,8 +76,6 @@ tarjetas, filtros e información. Este enfoque manual permite experimentar con v
 El prototipo de alta fidelidad fue diseñado utilizando la aplicación CANVA. En este proceso, se establecieron elementos clave, como la paleta de colores, el estilo visual y el funcionamiento inicial. Este prototipo de alta fidelidad sirve como una representación
 avanzada y detallada de la visión conceptual.
 
-***
-
 ## 5. HISTORIAS DE USUARIO
 
 En el desarrollo de las historias de usuario, se ha seguido un enfoque centrado en el visitante, incorporando una serie de preguntas que consideran las necesidades y expectativas del navegante final. Estas preguntas han sido fundamentales para estructurar un
@@ -93,8 +85,6 @@ A partir de las respuestas recopiladas, se ha implementado un plan de trabajo qu
 historias de usuario. Este proceso orientado al usuario ha sido clave para asegurar que la aplicación no solo cumpla con los requisitos técnicos, sino que también ofrezca una experiencia satisfactoria y efectiva para el visitante final.
 
 Para consultar las siguientes historias de usuario, puedes entrar a este enlace
-
-***
 
 ## 6. FUNCIONALIDADES
 
@@ -109,8 +99,6 @@ Operaciones acumulativas de filtrado y ordenamiento.
 Funcionalidad "Leer más" para revelar información adicional.
 Diseño adaptable para móviles, tablets y desktops
 
-***
-
 ## 7. CONSIDERACIONES TÉCNICAS
 
 La aplicación web está compuesta por varios tipos de archivos, incluyendo aquellos escritos en los lenguajes HTML, JavaScript (JS) y CSS:
@@ -124,20 +112,12 @@ La aplicación web está compuesta por varios tipos de archivos, incluyendo aque
 - test/data.js
 - src/view.js (incluye la función renderItems(data))
 
-***
-
-## 8. PRUEBAS UNITARIAS
-
 A lo largo del proyecto, hemos implementado un total de 10 pruebas unitarias que evalúan el funcionamiento de los filtros de Género, Punto de Vista (POV) y los ordenamientos ascendente y descendente. Estas pruebas unitarias han sido diseñadas para garantizar la
 integridad y precisión de estas funcionalidades dentro de la aplicación. Estas pruebas se ejecutan utilizando el comando npm run test.
-
-***
 
 ## 9. DEPLOY
 
 La aplicación se encuentra publicada a través de Github Pages, accesible a todo usuario:
-
-***
 
 ## 10. CRITERIOS DE ACEPTACIÓN MÍNIMOS DEL PROYECTO
 
@@ -184,8 +164,6 @@ La aplicación debió aprobar los siguientes test para considerarse como un buen
 - Arrays (arreglos)
 - Objetos
 - Módulos de ECMAScript (ES Modules)
-
-***
 
 ## 11. DESARROLLADOR DEL PROYECTO
 
