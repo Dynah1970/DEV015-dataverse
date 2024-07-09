@@ -64,6 +64,8 @@ Esta aplicación web ha sido construida a partir de dos tipos de prototipos: uno
 
 Se comenzó el diseño con un boceto rápido a mano para la interfaz de usuario. En esta fase, el enfoque se centra en la disposición general de los elementos en la página. Se identificaron los elementos esenciales que se quería incorporar en la interfaz, como las tarjetas, filtros e información. Este enfoque manual permite experimentar con varias ideas y conceptos antes de avanzar a etapas más detalladas del diseño.
 
+blob:https://web.whatsapp.com/3377ab0e-c7fa-4e7b-abec-4bd62432586a
+
 ### Prototipo de alta fidelidad
 
 El prototipo de alta fidelidad fue diseñado utilizando la aplicación CANVA. En este proceso, se establecieron elementos clave, como la paleta de colores, el estilo visual y el funcionamiento inicial. Este prototipo de alta fidelidad sirve como una representación avanzada y detallada de la visión conceptual.
