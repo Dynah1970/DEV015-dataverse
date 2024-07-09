@@ -124,7 +124,7 @@ Esta función facilita a los usuarios explorar más detalles sobre cada Pokémon
 
 - La aplicación está diseñada para ser completamente adaptable, asegurando una experiencia de usuario óptima en dispositivos móviles, tablets y desktops.
 
-### Características principales
+ Características principales:
 
 - Visualización de datos en forma de tarjetas Pokémon.
 - Filtrado por ELEMENTOS,DEBILIDAD,CARACTERISTICAS Y ALFABETICAMENTE..
