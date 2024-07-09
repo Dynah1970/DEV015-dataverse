@@ -81,7 +81,10 @@ En el desarrollo de las historias de usuario, se ha seguido un enfoque centrado 
 
 A partir de las respuestas recopiladas, se ha implementado un plan de trabajo que ha permitido establecer objetivos claros. Este enfoque ha sido esencial para diseñar una serie de prototipos que aborden de manera específica las necesidades planteadas en las historias de usuario. Este proceso orientado al usuario ha sido clave para asegurar que la aplicación no solo cumpla con los requisitos técnicos, sino que también ofrezca una experiencia satisfactoria y efectiva para el visitante final.
 
-Para consultar las siguientes historias de usuario, puedes entrar a este enlace.
+<img width="488" alt="image" src="https://github.com/Dynah1970/DEV015-dataverse/assets/169708716/23af91a8-0455-478a-9cd3-50823a8fa338">
+
+
+Para consultar las siguientes historias de usuario, puedes entrar a este enlace.https://docs.google.com/document/d/1-8Qg1iZ3A9PAYPs_Uav1GLNPVLmEqdMVvFYjQuiYPTw/edit?usp=sharing
 
 ## 6. FUNCIONALIDADES
 
