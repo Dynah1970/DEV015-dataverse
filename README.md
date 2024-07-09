@@ -72,6 +72,9 @@ Se comenzó el diseño con un boceto rápido a mano para la interfaz de usuario.
 
 El prototipo de alta fidelidad fue diseñado utilizando la aplicación CANVA. En este proceso, se establecieron elementos clave, como la paleta de colores, el estilo visual y el funcionamiento inicial. Este prototipo de alta fidelidad sirve como una representación avanzada y detallada de la visión conceptual.
 
+<img width="512" alt="image" src="https://github.com/Dynah1970/DEV015-dataverse/assets/169708716/0f047e5a-3d6e-4f1b-b25c-c0356360b527">
+
+
 ## 5. HISTORIAS DE USUARIO
 
 En el desarrollo de las historias de usuario, se ha seguido un enfoque centrado en el visitante, incorporando una serie de preguntas que consideran las necesidades y expectativas del navegante final. Estas preguntas han sido fundamentales para estructurar un proceso lógico e intuitivo dentro de la aplicación web.
