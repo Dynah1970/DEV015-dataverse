@@ -137,11 +137,11 @@ La aplicación debió aprobar los siguientes test para considerarse como un buen
 #### HTML
 
 - **Uso de HTML semántico**
-  - Tiene un `<header>` con `<h1>`.
-  - Tiene un `<footer>`.
-  - Tiene un `<main>` con `<h2>`.
-  - Todas las etiquetas de controles (inputs y select) tienen `<label>`.
-  - `<ul>` está usado para dibujar la data.
+  - Tiene un `<header>` con con un logotipo de Pokémon y un título principal <h1>.
+  - Tiene un `<footer>`con un párrafo que menciona a los desarrolladores del programa..
+  - Tiene un `<main>` que contiene secciones de controles (entradas y selecciones) para filtrar y ordenar los Pokémon.
+  - Todas las etiquetas de controles (select) tienen `<label>`.
+  - `<ul>` está usado  para mostrar los datos de los Pokémon..
   - Los hijos de `<li>` usan atributos de microdata `itemscope` e `itemprop`.
 
 #### CSS
@@ -170,7 +170,12 @@ La aplicación debió aprobar los siguientes test para considerarse como un buen
 ## 11. DESARROLLADOR DEL PROYECTO
 
 Información sobre Las desarrolladoras del proyecto:
+<img width="313" alt="image" src="https://github.com/Dynah1970/DEV015-dataverse/assets/169708716/3b82117e-48b3-4ab6-aac9-96f5721e5f7c">
+
 - Daniela Trejo
+
+- <img width="279" alt="image" src="https://github.com/Dynah1970/DEV015-dataverse/assets/169708716/0dde3785-a9fa-40dd-ab95-d97b3c11cf80">
+
 - Dinah Gomez
 
 
