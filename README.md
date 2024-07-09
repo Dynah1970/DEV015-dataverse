@@ -84,8 +84,6 @@ proceso lógico e intuitivo dentro de la aplicación web.
 A partir de las respuestas recopiladas, se ha implementado un plan de trabajo que ha permitido establecer objetivos claros. Este enfoque ha sido esencial para diseñar una serie de prototipos que aborden de manera específica las necesidades planteadas en las
 historias de usuario. Este proceso orientado al usuario ha sido clave para asegurar que la aplicación no solo cumpla con los requisitos técnicos, sino que también ofrezca una experiencia satisfactoria y efectiva para el visitante final.
 
-Para consultar las siguientes historias de usuario, puedes entrar a este enlace
-
 ## 6. FUNCIONALIDADES
 
 ### Características principales de las Tarjetas Pokémon
@@ -111,7 +109,6 @@ La aplicación web está compuesta por varios tipos de archivos, incluyendo aque
 - test/dataFunctions.spec.js
 - test/data.js
 - src/view.js (incluye la función renderItems(data))
-
 
 ## 8. PRUEBAS UNITARIAS
 
