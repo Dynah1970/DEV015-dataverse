@@ -170,6 +170,10 @@ La aplicación debió aprobar los siguientes test para considerarse como un buen
 ## 11. DESARROLLADOR DEL PROYECTO
 
 Información sobre Las desarrolladoras del proyecto:
+
+
+
+
 <img width="313" alt="image" src="https://github.com/Dynah1970/DEV015-dataverse/assets/169708716/3b82117e-48b3-4ab6-aac9-96f5721e5f7c">
 
 - Daniela Trejo
