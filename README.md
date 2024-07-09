@@ -99,37 +99,15 @@ Para consultar las siguientes historias de usuario, puedes entrar a este enlace
 ## 6. FUNCIONALIDADES
 
 ### Características principales de las Tarjetas Pokémon
-
-- La aplicación permite al usuario visualizar los elementos de la información mediante una presentación en forma de tarjetas. en una presentación dinámica y atractiva. Cada tarjeta está representada en un formato semántico que facilita la visualización de información clave sobre cada Pokémon.
-
-- Las tarjetas Pokémon están encapsuladas en elementos <div>, estructuradas de manera que cada Pokémon se representa como un elemento individual.
-
-- Las tarjetas resaltan valores asociados a las propiedades de cada Pokémon, incluyendo NOMBRE,ElEMENTO,GENERACION,NUMERO,RAREZA,PEQUEÑA DESCRIPCIN,DESCRIPCION,DEBILIDAD,ATAQUE,DEFENSA,VELOCIDAD,DATOS CURIOSOS,NUMERO,HABILIDAD,COLOR PRINCIPAL
-
-- Los Pokémon pueden ser filtrados y ordenados según varios criterios, como ELEMENTOS,DEBILIDAD,CARACTERISTICAS, ALFABETICAMENTE. Los usuarios pueden seleccionar un tipo específico de Pokémon.
-
-- La interfaz está diseñada con estándares semánticos utilizando microdatos, empleando atributos como itemscope, itemtype e itemprop para estructurar la información de manera clara y accesible.
-
-- La aplicación proporciona estadísticas dinámicas sobre la cantidad de Pokémon disponibles, tipos de Pokémon y otras métricas relevantes.
-
-- Para facilitar la interacción del usuario, se han implementado controles <select> que permiten filtrar Pokémon por ELEMENTOS,DEBILIDAD,CARACTERISTICAS, ALFABETICAMENTE. Además, un botón de reinicio restablece los filtros aplicados y restaura la vista original.
-
-- Las funciones de filtrado y ordenamiento operan de manera acumulativa, permitiendo a los usuarios aplicar múltiples filtros y luego ordenar los resultados según sus preferencias.
-
-- Todas las operaciones, incluyendo filtrado, ordenamiento y reinicio, se realizan dinámicamente a través de JavaScript para una experiencia fluida sin necesidad de recargar la página.
-  
-- En cada tarjeta de Pokémon, habrá un botón etiquetado como "Leer más". Este botón está diseñado para revelar información adicional sobre el Pokémon cuando se hace clic en él. Por defecto, la información adicional está oculta para mantener la tarjeta limpia y organizada. Al hacer clic en "Leer más", se desliza hacia abajo una sección que muestra detalles como estadísticas adicionales, fortalezas y debilidades del Pokémon. El texto del botón cambia automáticamente a "Leer menos", lo que permite al usuario contraer la sección expandida si ya no desea ver la información adicional.
-
-Esta función facilita a los usuarios explorar más detalles sobre cada Pokémon sin abrumar la vista con demasiada información de una vez.
-
-- La aplicación está diseñada para ser completamente adaptable, asegurando una experiencia de usuario óptima en dispositivos móviles, tablets y desktops.
-
- Características principales:
-
-- Visualización de datos en forma de tarjetas Pokémon.
-- Filtrado por ELEMENTOS,DEBILIDAD,CARACTERISTICAS Y ALFABETICAMENTE..
-- Interfaz adaptable para dispositivos móviles y de escritorio.
-- Estadísticas dinámicas sobre el conjunto de datos de tarjetas Pokémon.
+Visualización dinámica y atractiva de tarjetas Pokémon en formato semántico <div>.
+Resalta nombre, elemento, generación, número, rareza, pequeña descripción, descripción, debilidad, ataque, defensa, velocidad, datos curiosos, habilidad, color principal.
+Filtrado y ordenamiento por elementos, debilidad, características, y alfabéticamente.
+Interfaz semántica con microdatos (itemscope, itemtype, itemprop).
+Estadísticas dinámicas sobre cantidad y tipos de Pokémon.
+Controles <select> para filtros y botón de reinicio.
+Operaciones acumulativas de filtrado y ordenamiento.
+Funcionalidad "Leer más" para revelar información adicional.
+Diseño adaptable para móviles, tablets y desktops
 
 ***
 
