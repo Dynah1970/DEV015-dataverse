@@ -103,6 +103,8 @@ La aplicación web está compuesta por varios tipos de archivos, incluyendo aque
 - `test/data.js`
 - `src/view.js` (incluye la función `renderItems(data)`)
 
+## 8. PRUEBAS UNITARIAS 
+
 A lo largo del proyecto, hemos implementado un total de 10 pruebas unitarias que evalúan el funcionamiento de los filtros de Género, Punto de Vista (POV) y los ordenamientos ascendente y descendente. Estas pruebas unitarias han sido diseñadas para garantizar la integridad y precisión de estas funcionalidades dentro de la aplicación. Estas pruebas se ejecutan utilizando el comando `npm run test`.
 
 ## 9. DEPLOY
