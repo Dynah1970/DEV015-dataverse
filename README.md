@@ -135,4 +135,15 @@ La aplicación debió aprobar los siguientes test para considerarse como un buen
 #### HTML
 
 - **Uso de HTML semántico**
-  - Tiene un
+  - Tiene una estructura de etiquetas adecuada que facilita la accesibilidad y la comprensión del contenido.
+
+#### CSS
+
+- **Estilo visual coherente**
+  - Implementa reglas de estilo que mantienen una apariencia visual coherente y atractiva en toda la aplicación.
+
+#### JavaScript
+
+- **Funcionalidad interactiva**
+  - Las funciones implementadas permiten
+
