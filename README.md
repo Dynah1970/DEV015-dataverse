@@ -213,4 +213,5 @@ La aplicación debió aprobar los siguientes test para considerarse como un buen
 
 Información sobre Las desarrolladoras del proyecto.
 Daniela Trejo & Dinah Gomez
+| :---: |
 
