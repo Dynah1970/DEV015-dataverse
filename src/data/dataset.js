@@ -10,12 +10,12 @@ export default [
     shortDescription:
       "Tras nacer, crece alimentándose durante un tiempo de los nutrientes que contiene el bulbo de su lomo.",
     description:
-      "Bulbasaur tiene una altura de 0.7m y un peso de 6.9kg. Tiene una categoría semilla y una habilidad de espesura. Es de tipo Planta y Veneno, tiene una debilidad a Fuego, Hielo, Psíquico y Volador. Tiene varias evoluciones: Bulbasaur - Ivysaur - Venusaur.",
+      "Bulbasaur es un Pokémon de tipo Planta/Veneno. Es conocido por su característica apariencia verde y el bulbo en su espalda, que crece a medida que evoluciona. Amigable y leal, Bulbasaur es una opción popular entre los entrenadores novatos. Su habilidad principal es Espesura, que potencia sus movimientos de tipo Planta cuando está herido. Además, Bulbasaur puede aprender una variedad de ataques, incluyendo Rayo Solar y Hoja Afilada. Es el número 1 en la Pokédex y proviene de la región de Kanto.",
     weakness: ["Fuego", "Hielo", "Psíquico", "Volador"],
     attack: 49,
     defense: 49,
     speed: 45,
-    image: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png",
+    imageUrl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png",
     facts: {
       pokedexNumber: 1,
       ability: "Tiene la habilidad de hablar y comuniarse con otros pokemon",
@@ -33,12 +33,12 @@ export default [
     shortDescription:
       "La llama de su cola indica su fuerza vital. Si está débil, la llama arderá más tenue.",
     description:
-      "Charmander tiene una altura de 0.6m y un peso de 8.5kg. Tiene una categoría lagartija y una habilidad de mar llamas. Es de tipo Fuego y su debilidad es Agua, Tierra y Roca. Tiene varias evoluciones: Charmander - Charmeleon - Charizard.",
+     "Charmander es un Pokémon de tipo Fuego, reconocido por su cola en llamas que indica su estado de salud y emoción. Aunque pequeño, posee una llama ardiente en la punta de su cola desde su nacimiento. Es valiente y determinado, dispuesto a enfrentar desafíos incluso cuando su llama disminuye. Evoluciona a Charmeleon y luego a Charizard, obteniendo mayores habilidades de fuego y vuelo. Su habilidad Mar llamas le permite lanzar ataques ardientes con precisión. Charmander es el número 4 en la Pokédex y se encuentra principalmente en la región de Kanto.",
     weakness: ["Agua", "Tierra", "Roca"],
     attack: 52,
     defense: 43,
     speed: 65,
-    image: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png",
+    imageUrl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png",
     facts: {
       pokedexNumber: 4,
       ability: "Tiene la habilidad de hablar y comuniarse con otros pokemon",
@@ -56,12 +56,12 @@ export default [
     shortDescription:
       "Tras nacer, se le hincha el lomo y se le forma un caparazón. Escupe poderosa espuma por la boca.",
     description:
-      "Squirtle tiene una altura de 0.5m y un peso de 9.0kg. Tiene una categoría tortuguita y una habilidad torrente. Es de tipo Agua y su debilidad es Planta y Eléctrico. Tiene varias evoluciones: Squirtle - Wartortle - Blastoise.",
+      "Squirtle es un Pokémon de tipo Agua, reconocido por su caparazón duro y su cola en forma de hélice que le permite nadar rápidamente. Es conocido por su personalidad amigable y juguetona, pero también muestra determinación en la batalla. Squirtle puede disparar poderosos chorros de agua desde su boca, utilizando habilidades como Pistola Agua y Hidrocañón. Evoluciona a Wartortle y luego a Blastoise, obteniendo un cañón de agua en su espalda que incrementa su poder. Es el número 7 en la Pokédex y se encuentra comúnmente en la región de Kanto",
     weakness: ["Planta", "Eléctrico"],
     attack: 48,
     defense: 65,
     speed: 43,
-    image: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png",
+    imageUrl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png",
     facts: {
       pokedexNumber: 7,
       ability: "Tiene la habilidad de hablar y comuniarse con otros pokemon",
@@ -79,12 +79,12 @@ export default [
     shortDescription:
       "Cuando se enfada, este Pokémon descarga la energía que almacena en el interior de las bolsas de las mejillas.",
     description:
-      "Pikachu tiene una altura de 0.4m y un peso de 6.0kg. Tiene una categoría ratón y una habilidad eléctrica estática. Es de tipo Eléctrico y su debilidad es Tierra. Tiene varias evoluciones: Pichu - Pikachu - Raichu.",
+      "Pikachu es un Pokémon de tipo Eléctrico, famoso por su pelaje amarillo y mejillas rojas que almacenan electricidad. Es conocido por su carisma y su capacidad para generar descargas eléctricas potentes, que utiliza en combate con movimientos como Impactrueno y Rayo. Además de su agilidad y velocidad, Pikachu es leal a su entrenador y muestra afecto con sus gestos tiernos y chispeantes. Evoluciona de Pichu cuando se maximiza su amistad y es el Pokémon mascota de la franquicia Pokémon. Pikachu es el número 25 en la Pokédex y se encuentra en diversas regiones.",
     weakness: ["Tierra"],
     attack: 55,
     defense: 40,
     speed: 90,
-    image: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png",
+    imageUrl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png",
     facts: {
       pokedexNumber: 25,
       ability: "Tiene la habilidad de hablar y comuniarse con otros pokemon",
@@ -100,14 +100,14 @@ export default [
     number: 39,
     rarity: "Comun",
     shortDescription:
-      "Cuando le tiemblan sus redondos y adorables ojos, entona una melodía agradable y misteriosa con la que duerme a sus enemigos.",
+      "Cuando le tiemblan sus redondos y adorables ojos, entona una melodía agradable y misteriosa con cual duerme a sus enemigos.",
     description:
-      "Jigglypuff tiene una altura de 0.5m y un peso de 5.5kg. Tiene una categoría globo y una habilidad gran encanto y tenacidad. Es de tipo Normal y Hada, y su debilidad es Veneno y Acero. Tiene varias evoluciones: Igglybuff - Jigglypuff - Wigglytuff.",
+      "Jigglypuff es un Pokémon de tipo Normal/Hada, reconocido por su apariencia redonda y su color rosa pastel. A pesar de su aspecto tierno, Jigglypuff tiene una habilidad peculiar: puede cantar una canción de cuna que induce al sueño a quienes la escuchan. Este rasgo lo convierte en una opción popular en conciertos y eventos sociales. En combate, utiliza movimientos como Canto para adormecer a sus oponentes y Beso Amoroso para atacar con afecto. Evoluciona de Igglybuff y es conocido por su personalidad amigable y amorosa en la Pokédex como el número 39.",
     weakness: ["Veneno", "Acero"],
     attack: 45,
     defense: 20,
     speed: 20,
-    image: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/039.png",
+    imageUrl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/039.png",
     facts: {
       pokedexNumber: 39,
       ability: "Tiene la habilidad de hablar y comuniarse con otros pokemon",
@@ -125,12 +125,12 @@ export default [
     shortDescription:
       "Durante el día se dedica a dormir, y de noche vigila su territorio con un brillo en los ojos.",
     description:
-      "Meowth tiene una altura de 0.4m y un peso de 4.2kg. Tiene una categoría de gato araña y una habilidad recogida y experto. Es de tipo Normal y su debilidad es Lucha. Tiene varias evoluciones: Meowth - Persian.",
+      "Meowth es un Pokémon de tipo Normal, reconocido por su apariencia felina con monedas en su frente y una cola larga y peluda. Es conocido por su habilidad especial de hablar el lenguaje humano y por su destreza para recolectar monedas y objetos brillantes. A menudo se le asocia con el Equipo Rocket, donde despliega ingenio y astucia para ayudar en sus planes. Meowth utiliza movimientos como Garra y Finta en combate, mostrando su agilidad y versatilidad. Es el número 52 en la Pokédex y se encuentra principalmente en la región de Kanto",
     weakness: ["Lucha"],
     attack: 45,
     defense: 35,
     speed: 90,
-    image: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/052.png",
+    imageUrl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/052.png",
     facts: {
       pokedexNumber: 52,
       ability: "Tiene la habilidad de hablar y comuniarse con otros pokemon",
@@ -148,12 +148,12 @@ export default [
     shortDescription:
       "Padece continuamente dolores de cabeza, cuando son muy fuertes, empieza a usar misteriosos poderes.",
     description:
-      "Psyduck tiene una altura de 0.8m y un peso de 19.6kg. Tiene una categoría de pato y una habilidad húmeda y de aclimatación. Es de tipo Agua y su debilidad es Planta y Eléctrico. Tiene varias evoluciones: Psyduck - Golduck.",
+      "Psyduck es un Pokémon de tipo Agua conocido por su aspecto amarillo y su perpetuo dolor de cabeza. Cuando el dolor se intensifica, libera energía psíquica descontrolada capaz de causar estragos. Aunque distraído y a menudo confundido, Psyduck posee habilidades psíquicas poderosas que emergen en momentos de estrés extremo. Evoluciona a Golduck, donde su control mental mejora, volviéndose más capaz en la batalla. Psyduck emplea movimientos como Confusión y Psíquico, aprovechando su naturaleza psíquica para defenderse. Es el número 54 en la Pokédex y se encuentra en diversas regiones acuáticas del mundo Pokémon.",
     weakness: ["Planta", "Eléctrico"],
     attack: 52,
     defense: 48,
     speed: 55,
-    image: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/054.png",
+    imageUrl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/054.png",
     facts: {
       pokedexNumber: 54,
       ability: "Tiene la habilidad de hablar y comuniarse con otros pokemon",
@@ -170,14 +170,14 @@ export default [
     number: 66,
     rarity: "Comun",
     shortDescription:
-      "Es una masa de músculos y pese a su pequeño tamaño, tiene fuerza de sobra para levantar en brazos a 100 personas.",
+      "Machop,el es un Pokémon Lucha, es conocido por su fuerza y músculos robustos, entrenando constantemente para mejorar su poder.",
     description:
-      "Machop tiene una altura de 0.8m y un peso de 19.5kg. Tiene categoría super poder y una habilidad agallas e indefenso. Es de tipo Lucha y su debilidad es Volador, Psíquico y Hada. Tiene varias evoluciones: Machop - Machoke - Machamp.",
+      "Machop es un Pokémon de tipo Lucha, reconocido por su musculatura robusta y su piel color gris azulado. Desde su nacimiento, entrena incansablemente para fortalecer sus músculos y aumentar su resistencia física. Es conocido por levantar y mover objetos pesados con facilidad, demostrando su fuerza sobrehumana. En combate, utiliza movimientos como Golpe Karate, Doble Filo y Mega Puño para derrotar a sus oponentes. Evoluciona a Machoke y luego a Machamp, cada vez aumentando su poder y habilidades de combate. Machop es el número 66 en la Pokédex y se encuentra comúnmente en áreas montañosas y urbanas.",
     weakness: ["Volador", "Psíquico", "Hada"],
     attack: 80,
     defense: 50,
     speed: 35,
-    image: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/066.png",
+    imageUrl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/066.png",
     facts: {
       pokedexNumber: 66,
       ability: "Tiene la habilidad de hablar y comuniarse con otros pokemon",
@@ -196,12 +196,12 @@ export default [
     shortDescription:
       "Las unidades laterales crean ondas electromagnéticas que contrastan la gravedad y la permiten florecer.",
     description:
-      "Magnemite tiene una altura de 0.3m y un peso de 6.0kg. Tiene una categoría imán y una habilidad robustez e imán. Es de tipo eléctrico-acero y su debilidad son fuego-lucha-tierra. Tiene varias evoluciones en las cuales tenemos Magnemite, Magneton, Magnezone.",
+      "Magnemite es un Pokémon de tipo Eléctrico/Acero, caracterizado por su estructura metálica y su capacidad para generar campos magnéticos. Consiste en un imán central rodeado por esferas metálicas, que flotan y giran para mantener su equilibrio. Magnemite utiliza su capacidad magnética para adherirse a superficies metálicas y flotar en el aire sin esfuerzo. En combate, emite descargas eléctricas poderosas con movimientos como Rayo y Puño Trueno. Evoluciona a Magneton y luego a Magnezone, incrementando su poder y adaptabilidad en diferentes entornos. Es el número 81 en la Pokédex y se encuentra en zonas urbanas y industriales.",
     weakness: ["Fuego", "Lucha", "Tierra"],
     attack: 35,
     defense: 70,
     speed: 45,
-    image: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/081.png",
+    imageUrl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/081.png",
     facts: {
       pokedexNumber: 81,
       ability: "Carece de la habilidad de comunicarse con otoros Pokemons",
@@ -219,12 +219,12 @@ export default [
     shortDescription:
       "Para quitarle la vida a su presa, se desliza en su sombra y espera su oportunidad en silencio.",
     description:
-      "Gengar tiene una altura de 1.5m y un peso de 40.5kg. Tiene una categoría sombra y una habilidad cuerpo maldito. Es de tipo fantasma-veneno y su debilidad son tierra-psíquico-fantasma-siniestro. Tiene varias evoluciones en las cuales tenemos Gastly, Haunter, Gengar.",
+      "Gengar es un Pokémon de tipo Fantasma/Veneno, reconocido por su figura sombría y su habilidad para aparecer y desaparecer a voluntad. Acecha en las sombras y disfruta asustando a los desprevenidos con su risa siniestra. A pesar de su naturaleza traviesa, Gengar es inteligente y estratégico en combate, utilizando movimientos como Hipnosis y Bola Sombra para debilitar a sus oponentes. Evoluciona de Haunter y es la forma final de Gastly, siendo el número 94 en la Pokédex. Gengar es comúnmente encontrado en lugares oscuros y abandonados donde se siente cómodo.",
     weakness: ["Tierra", "Psíquico", "Fantasma", "Siniestro"],
     attack: 65,
     defense: 60,
     speed: 110,
-    image: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/094.png",
+    imageUrl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/094.png",
     facts: {
       pokedexNumber: 94,
       ability: "Carece de la habilidad de comunicarse con otoros Pokemons",
@@ -243,12 +243,12 @@ export default [
     shortDescription:
       "Es capaz de evolucionar de muchas maneras para adaptarse sin problemas a cualquier medio.",
     description:
-      "Eevee tiene una altura de 0.3m y un peso de 6.5kg. Tiene una categoría evolución y una habilidad fuego y adaptable. Es de tipo normal y su debilidad es lucha. Tiene varias evoluciones en las cuales tenemos Eevee, Vaporeon, Jolteon, Flareon, Espeon, Umbreon, Leafeon, Glaceon, Sylveon.",
+      "Eevee es un Pokémon Normal conocido por su capacidad única de evolucionar en múltiples formas, adaptándose a su entorno y circunstancias. Su pelaje suave y esponjoso y sus grandes ojos expresivos le dan una apariencia encantadora y versátil. Eevee posee una habilidad genética especial que le permite evolucionar en diversas formas, como Vaporeon, Jolteon, Flareon y más, dependiendo de la piedra elemental, la amistad o las condiciones del entorno. Es amigable y adaptable, disfrutando de la compañía humana y mostrando lealtad en la batalla. Eevee es el número 133 en la Pokédex y se encuentra en diversas regiones.",
     weakness: ["Lucha"],
     attack: 55,
     defense: 50,
     speed: 55,
-    image: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/133.png",
+    imageUrl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/133.png",
     facts: {
       pokedexNumber: 133,
       ability: "Carece de la habilidad de comunicarse con otoros Pokemons",
@@ -265,14 +265,14 @@ export default [
     number: 143,
     rarity: "Extraño",
     shortDescription:
-      "Este Pokémon es un glotón que lo único que hace aparte de comer es dormir, puede ingerir hasta 400 kg de comida en un solo día.",
+      "Snorlax, un Pokémon Normal, es famoso por su gran tamaño y apetito voraz, pasando la mayor parte del tiempo durmiendo.",
     description:
-      "Snorlax tiene una altura de 2.1m y un peso de 460.0kg. Tiene una categoría dormir y una habilidad sebo e inmunidad. Es de tipo normal y su debilidad es lucha. Tiene varias evoluciones en las cuales tenemos Munchlax, Snorlax.",
+      "Snorlax es un Pokémon de tipo Normal conocido por su enorme tamaño y apetito insaciable. Pasivamente tranquilo, pasa la mayor parte del tiempo durmiendo y comiendo, siendo capaz de consumir grandes cantidades de alimentos en un solo festín. A pesar de su naturaleza perezosa, Snorlax muestra una fuerza extraordinaria en batalla, utilizando movimientos como Hiperrayo y terremoto. Evoluciona de Munchlax y es capaz de bloquear caminos enteros cuando decide descansar en medio de las rutas. Es el número 143 en la Pokédex y se encuentra principalmente en áreas boscosas y montañosas.",
     weakness: ["Lucha"],
     attack: 110,
     defense: 65,
     speed: 30,
-    image: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/143.png",
+    imageUrl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/143.png",
     facts: {
       pokedexNumber: 143,
       ability: "Carece de la habilidad de comunicarse con otoros Pokemons",
@@ -291,12 +291,12 @@ export default [
     shortDescription:
       "Dicen que viven en una isla en algún lugar del océano que solo ellos habitan.",
     description:
-      "Dragonite tiene una altura de 2.2m y un peso de 210.0kg. Tiene una categoría dragón y una habilidad fuerza mental. Es de tipo dragón-volador y su debilidad es hielo-roca-dragón-hada. Tiene varias evoluciones en las cuales tenemos Dratini, Dragonair, Dragonite.",
+      "Dragonite es un Pokémon de tipo dragón-volador de la región Kanto. Con una impresionante altura de 2.2m y un peso de 210.0kg, destaca por su gran tamaño y fuerza. Tiene la habilidad de fuerza mental y es vulnerable a los ataques de tipo hielo, roca, dragón y hada. Dragonite es conocido por su inteligencia y capacidad para volar a gran velocidad. Se dice que habita en islas remotas del océano. Su evolución comienza con Dratini, pasando a Dragonair antes de convertirse en Dragonite. Es una criatura amigable y poderosa, muy valorada en batallas y aventuras.",
     weakness: ["Dragon", "Volador"],
     attack: 134,
     defense: 95,
     speed: 80,
-    image: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/149.png",
+    imageUrl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/149.png",
     facts: {
       pokedexNumber: 149,
       ability: "Carece de la habilidad de comunicarse con otoros Pokemons",
@@ -315,12 +315,12 @@ export default [
     shortDescription:
       "Su ADN es casi el mismo que el de Mew. Sin embargo, su tamaño y carácter son muy diferentes.",
     description:
-      "Mewtwo tiene una altura de 2.0m y un peso de 122.0kg. Tiene una categoría genética y una habilidad presión. Es de tipo psíquico y su debilidad es bicho-fantasma-siniestro. Este Pokémon NO tiene evoluciones.",
+      "Mewtwo es un Pokémon legendario de tipo psíquico originario de la región Kanto. Mide 2.0m y pesa 122.0kg, destacando por su imponente presencia. Posee la habilidad de presión, que debilita a sus oponentes, y es débil frente a los tipos bicho, fantasma y siniestro. Creado a partir del ADN de Mew, Mewtwo es una versión mejorada y más agresiva, con una inteligencia superior y un poder inmenso. A pesar de su origen artificial, no tiene evoluciones y es uno de los Pokémon más temidos y respetados en el universo Pokémon.",
     weakness: ["Este Pokemon NO evoluciona"],
     attack: 110,
     defense: 90,
     speed: 130,
-    image: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/150.png",
+    imageUrl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/150.png",
     facts: {
       pokedexNumber: 150,
       ability: "Carece de la habilidad de comunicarse con otoros Pokemons",
@@ -337,14 +337,14 @@ export default [
     number: 151,
     rarity: "Mitica",
     shortDescription:
-      "Si se observa a través de un microscopio puede distinguirse cuán corto, fino y delicado es el pelaje de este Pokémon.",
+      "Mew, Pokémon mítico, es conocido por su rareza y misteriosa naturaleza. Se rumorea que posee habilidades únicas, extraordinarias y sorprendentes.",
     description:
-      "Mew tiene una altura de 0.4m y un peso de 4.0kg. Tiene una categoría nueva especie y una habilidad sincronía. Es de tipo psíquico y su debilidad es bicho-fantasma-siniestro. Este Pokémon NO tiene evoluciones.",
+      "Mew es un Pokémon mítico de tipo psíquico de la región Kanto. Con una altura de 0.4m y un peso de 4.0kg, es pequeño pero extremadamente poderoso. Su habilidad es sincronía, que puede compartir estados alterados con su oponente. Mew es vulnerable a los tipos bicho, fantasma y siniestro. Este Pokémon es famoso por su capacidad de aprender cualquier movimiento, lo que lo hace muy versátil en combate. Su ADN único es la base para la creación de Mewtwo. Aunque no tiene evoluciones, Mew es altamente valorado por su rareza y habilidades excepcionales.",
     weakness: ["Este Pokemon NO tiene evoluciones"],
     attack: 100,
     defense: 100,
     speed: 100,
-    image: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/151.png",
+    imageUrl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/151.png",
     facts: {
       pokedexNumber: 151,
       ability: "Carece de la habilidad de comunicarse con otoros Pokemons",
@@ -363,12 +363,12 @@ export default [
     shortDescription:
       "Le encanta tomar el sol, usa la hoja que tiene en la cabeza para localizar sitios cálidos.",
     description:
-      "Chikorita tiene una altura de 0.9m y un peso de 6.4kg. Tiene una categoría hoja y una habilidad espesura. Es de tipo planta y su debilidad es fuego-hielo-veneno-volador-bicho. Tiene varias evoluciones en las cuales tenemos Chikorita, Bayleef, Meganium.",
+      "Chikorita es un Pokémon de tipo planta de la región Johto. Con una altura de 0.9m y un peso de 6.4kg, es conocido por la hoja en su cabeza, que usa para detectar sitios cálidos y tomar el sol. Su habilidad espesura aumenta sus movimientos de tipo planta cuando está en apuros. Chikorita es débil contra los tipos fuego, hielo, veneno, volador y bicho. Evoluciona en Bayleef y luego en Meganium. Chikorita es un Pokémon amigable y curioso, apreciado por su naturaleza pacífica y su capacidad para animar a sus compañeros",
     weakness: ["Fuego", "Hielo", "Veneno", "Volador", "Bicho"],
     attack: 49,
     defense: 65,
     speed: 45,
-    image: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/152.png",
+    imageUrl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/152.png",
     facts: {
       pokedexNumber: 152,
       ability: "Carece de la habilidad de comunicarse con otoros Pokemons",
@@ -387,12 +387,12 @@ export default [
     shortDescription:
       "Suele estar encorbado. Si se enfada o se asusta lanzará llamas por el lomo.",
     description:
-      "Cyndaquil tiene una altura de 0.5m y un peso de 7.9kg. Tiene una categoría ratón fuego y una habilidad mar llamas. Es de tipo fuego y su debilidad es agua-tierra-roca. Tiene varias evoluciones en las cuales tenemos Cyndaquil, Quilava, Typhlosion.",
+      "Cyndaquil es un Pokémon de tipo fuego de la región Johto. Mide 0.5m y pesa 7.9kg, y su habilidad mar llamas aumenta el poder de sus ataques de fuego cuando está debilitado. Cyndaquil es vulnerable a los tipos agua, tierra y roca. Este Pokémon emite llamas por su lomo cuando se siente amenazado o enfadado, y su fuego puede ser muy intenso. Evoluciona en Quilava y luego en Typhlosion, ganando más poder y habilidades a lo largo de su desarrollo. Cyndaquil es conocido por su lealtad y valentía en combate.",
     weakness: ["Agua", "Tierra", "Roca"],
     attack: 52,
     defense: 43,
     speed: 65,
-    image: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/155.png",
+    imageUrl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/155.png",
     facts: {
       pokedexNumber: 155,
       ability: "Carece de la habilidad de comunicarse con otoros Pokemons",
@@ -411,12 +411,12 @@ export default [
     shortDescription:
       "Sus desarrolladas y potentes mandíbulas pueden triturar cualquier cosa, por lo que hasta su propio entrenador debe andarse con cuidado.",
     description:
-      "Totodile tiene una altura de 0.6m y un peso de 9.5kg. Tiene una categoría fauces y una habilidad torrente. Es de tipo agua y su debilidad es planta-eléctrico. Tiene varias evoluciones en las cuales tenemos Totodile, Croconaw, Feraligatr.",
+      "Totodile es un Pokémon de tipo agua de la región Johto. Con una altura de 0.6m y un peso de 9.5kg, tiene la habilidad torrente, que potencia sus ataques de agua cuando está en apuros. Es débil contra los tipos planta y eléctrico. Totodile es conocido por sus mandíbulas fuertes y su naturaleza juguetona, aunque a veces puede morder sin querer. Evoluciona en Croconaw y luego en Feraligatr, aumentando significativamente su tamaño y poder. Totodile es apreciado por su energía y entusiasmo en las batallas y aventuras.",
     weakness: ["Planta", "Eléctrico"],
     attack: 65,
     defense: 64,
     speed: 43,
-    image: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/158.png",
+    imageUrl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/158.png",
     facts: {
       pokedexNumber: 158,
       ability: "Carece de la habilidad de comunicarse con otoros Pokemons",
@@ -435,12 +435,12 @@ export default [
     shortDescription:
       "El cascarón parece estar lleno de alegría, dicen que trae buena suerte si se le trata con cariño.",
     description:
-      "Togepi tiene una altura de 0.3m y un peso de 1.5kg. Tiene una categoría boladavos y una habilidad dicha-entusiasmo. Es de tipo hada y su debilidad es veneno-acero. Tiene varias evoluciones en las cuales tenemos Togepi, Togetic, Togekiss.",
+      "Togepi es un Pokémon de tipo hada de la región Johto. Mide 0.3m y pesa 1.5kg. Sus habilidades, dicha y entusiasmo, le permiten curarse y animar a sus compañeros. Es débil contra los tipos veneno y acero. Togepi es conocido por su caparazón, que se dice está lleno de alegría y trae buena suerte a quien lo trata con cariño. Evoluciona en Togetic y luego en Togekiss, aumentando su poder y habilidades. Togepi es muy apreciado por su naturaleza dulce y su capacidad para alegrar a quienes lo rodean.",
     weakness: ["Veneno", "Acero"],
     attack: 20,
     defense: 65,
     speed: 20,
-    image: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/175.png",
+    imageUrl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/175.png",
     facts: {
       pokedexNumber: 175,
       ability: "Carece de la habilidad de comunicarse con otoros Pokemons",
@@ -458,12 +458,12 @@ export default [
     shortDescription:
       "Cuando almacena electricidad estática en su cuerpo, la lana dobla su volumen. Quien lo toque recibirá una descarga.",
     description:
-      "Mareep tiene una altura de 0.6m y un peso de 7.8kg. Tiene una categoría lana y una habilidad elc. estática. Es de tipo eléctrico y su debilidad es tierra. Tiene varias evoluciones en las cuales tenemos Mareep, Flaaffy, Ampharos.",
+      "Mareep es un Pokémon de tipo eléctrico de la región Johto. Con una altura de 0.6m y un peso de 7.8kg, su habilidad electricidad estática puede paralizar a sus oponentes si lo tocan. Es débil contra el tipo tierra. Mareep almacena electricidad en su lana, que se expande al doblar su volumen cuando está cargada. Evoluciona en Flaaffy y luego en Ampharos, ganando más poder y habilidades eléctricas. Mareep es conocido por su apariencia esponjosa y su capacidad para generar electricidad, lo que lo hace útil en diversas situaciones.",
     weakness: ["Tierra"],
     attack: 40,
     defense: 40,
     speed: 35,
-    image: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/179.png",
+    imageUrl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/179.png",
     facts: {
       pokedexNumber: 179,
       ability: "Carece de la habilidad de comunicarse con otoros Pokemons",
@@ -481,12 +481,12 @@ export default [
     shortDescription:
       "Al predecir el siguiente movimiento de su rival, los extremos de su cola bifurcada tiemblan ligeramente.",
     description:
-      "Espeon tiene una altura de 0.9m y un peso de 26.5kg. Tiene una categoría sol y una habilidad sincronía. Es de tipo psíquico y su debilidad es bicho-fantasma-siniestro. Tiene varias evoluciones en las cuales tenemos Eevee, Vaporeon, Jolteon, Flareon, Espeon, Umbreon, Leafeon, Glaceon, Sylveon.",
+      "Espeon es un Pokémon de tipo psíquico de la región Johto. Con una altura de 0.9m y un peso de 26.5kg, su habilidad sincronía le permite pasar estados alterados a su oponente. Es débil contra los tipos bicho, fantasma y siniestro. Espeon tiene una cola bifurcada que tiembla ligeramente cuando predice el próximo movimiento de su rival. Evoluciona de Eevee, aprovechando la luz del sol para aumentar su poder. Espeon es conocido por su elegancia y su capacidad para predecir los movimientos de sus oponentes, siendo un aliado valioso en combate",
     weakness: ["Bicho", "Fantasma", "Siniestro"],
     attack: 65,
     defense: 60,
     speed: 110,
-    image: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/196.png",
+    imageUrl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/196.png",
     facts: {
       pokedexNumber: 196,
       ability: "Carece de la habilidad de comunicarse con otoros Pokemons",
@@ -505,12 +505,12 @@ export default [
     shortDescription:
       "Si se expone al aura de la luna, los anillos de su cuerpo relucen y adquieren un poder misterioso.",
     description:
-      "Umbreon tiene una altura de 1.0m y un peso de 27.0kg. Tiene una categoría luz lunar y una habilidad sincronía. Es de tipo siniestro y su debilidad es lucha-bicho-hada. Tiene varias evoluciones en las cuales tenemos Eevee, Vaporeon, Jolteon, Flareon, Espeon, Umbreon, Leafeon, Glaceon, Sylveon.",
+      "Umbreon es un Pokémon de tipo siniestro de la región Johto. Mide 1.0m y pesa 27.0kg. Su habilidad sincronía le permite transferir estados alterados a su oponente. Es débil contra los tipos lucha, bicho y hada. Umbreon brilla misteriosamente bajo la luz de la luna, con anillos que adquieren un poder especial. Evoluciona de Eevee, demostrando su lealtad y valentía. Umbreon es conocido por su capacidad para resistir ataques y su aura intimidante, siendo un defensor formidable y un compañero leal en cualquier equipo Pokémon",
     weakness: ["Lucha", "Bicho", "Hada"],
     attack: 65,
     defense: 110,
     speed: 65,
-    image: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/197.png",
+    imageUrl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/197.png",
     facts: {
       pokedexNumber: 197,
       ability: "Carece de la habilidad de comunicarse con otoros Pokemons",
@@ -528,12 +528,12 @@ export default [
     shortDescription:
       "Temido y odiado por muchos, dicen que trae la desgracia a todos aquellos que lo ven por la noche.",
     description:
-      "Murkrow tiene una altura de 0.5m y un peso de 2.1kg. Tiene una categoría oscuridad y sus habilidades son insomnio-afortunado. Es de tipo siniestro-volador y su debilidad es eléctrico-hielo-roca-hada. Tiene varias evoluciones en las cuales tenemos Murkrow, Honchkrow.",
+      "Murkrow es un Pokémon de tipo siniestro-volador de la región Johto. Con una altura de 0.5m y un peso de 2.1kg, sus habilidades son insomnio y afortunado, lo que le permite evitar el sueño y aumentar la probabilidad de golpes críticos. Es débil contra los tipos eléctrico, hielo, roca y hada. Murkrow es temido por muchos, ya que se dice que trae mala suerte a quienes lo ven por la noche. Evoluciona en Honchkrow, ganando más poder y habilidades. Murkrow es un Pokémon astuto y ágil, conocido por su capacidad para escapar de situaciones peligrosas.",
     weakness: ["Eléctrico", "Hielo", "Roca", "Hada"],
     attack: 85,
     defense: 42,
     speed: 91,
-    image: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/198.png",
+    imageUrl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/198.png",
     facts: {
       pokedexNumber: 198,
       ability: "Carece de la habilidad de comunicarse con otoros Pokemons",
@@ -551,12 +551,12 @@ export default [
     shortDescription:
       "Cualquiera que pruebe un poco de huevo de Blissey se volverá más amable y agradable con todos.",
     description:
-      "Blissey tiene una altura de 1.5m y un peso de 46.8kg. Tiene una categoría felicidad y sus habilidades son cura natural-dicha. Es de tipo normal y su debilidad es lucha. Tiene varias evoluciones en las cuales tenemos Happiny, Chansey, Blissey.",
+      "Blissey es un Pokémon de tipo normal de la región Johto. Con una altura de 1.5m y un peso de 46.8kg, sus habilidades son cura natural y dicha, que le permiten curar sus estados alterados y aumentar la felicidad de su equipo. Es débil contra el tipo lucha. Blissey es conocida por sus huevos, que pueden hacer que cualquiera que los pruebe se sienta más amable y feliz. Evoluciona de Chansey, ganando más resistencia y capacidad para curar. Blissey es un Pokémon muy apreciado por su naturaleza cariñosa y su capacidad para curar y apoyar a sus compañeros",
     weakness: ["Lucha"],
     attack: 10,
     defense: 10,
     speed: 55,
-    image: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/242.png",
+    imageUrl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/242.png",
     facts: {
       pokedexNumber: 242,
       ability: "Carece de la habilidad de comunicarse con otoros Pokemons",

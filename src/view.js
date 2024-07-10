@@ -1,4 +1,4 @@
-export function renderPokemonList(pokemonList) {
+export function renderItems(pokemonList) {
   const pokemonListElement = document.getElementById("pokemon-list");
   pokemonListElement.innerHTML = "";
 
@@ -7,12 +7,12 @@ export function renderPokemonList(pokemonList) {
     li.setAttribute("itemscope", "true");
     li.setAttribute("itemtype", "http://schema.org/ItemPokemon");
 
-    const image = pokemon.image
-      ? `<img src="${pokemon.image}" alt="${pokemon.name}" itemprop="image">`
+    const imageUrl = pokemon.imageUrl
+      ? `<img src="${pokemon.imageUrl}" alt="${pokemon.name}" itemprop="imageUrl">`
       : "";
     const name = pokemon.name ? `<h3 itemprop="name">${pokemon.name}</h3>` : "";
     const type = pokemon.type
-      ? `<p><strong>ELEMENTO:</strong> ${pokemon.type.join(", ")}</p>`
+      ? `<p><strong>ELEMENTO:</strong> ${pokemon.type}</p>`
       : "";
     const generation = pokemon.generation
       ? `<p><strong>GENERACION:</strong> ${pokemon.generation}</p>`
@@ -34,7 +34,7 @@ export function renderPokemonList(pokemonList) {
       <div class="pokemon-card"> 
         <div class="card-inner">
           <div class="card-front">
-            ${image}
+            ${imageUrl}
             ${name}
             ${type}
             ${generation}
@@ -46,14 +46,18 @@ export function renderPokemonList(pokemonList) {
           </div>
           <div class="card-back hidden">
             <p><strong>DESCRIPCION:</strong> ${pokemon.description}</p>
-            <p><strong>DEBILIDAD:</strong> ${pokemon.weakness.join(", ")}</p>
+            <p><strong>DEBILIDAD:</strong> ${pokemon.weakness}</p>
             <p><strong>ATAQUE:</strong> ${pokemon.attack}</p>
             <p><strong>DEFENSA:</strong> ${pokemon.defense}</p>
             <p><strong>VELOCIDAD:</strong> ${pokemon.speed}</p>
             <p><strong>DATOS CURIOSOS:</strong></p>
-            <p><strong>POKEDEX NUMERO:</strong> ${pokemon.facts.pokedexNumber}</p>
+            <p><strong>POKEDEX NUMERO:</strong> ${
+              pokemon.facts.pokedexNumber
+            }</p>
             <p><strong>HABILIDAD:</strong> ${pokemon.facts.ability}</p>
-            <p><strong>COLOR PRINCIPAL:</strong> ${pokemon.facts.primaryColor}</p>
+            <p><strong>COLOR PRINCIPAL:</strong> ${
+              pokemon.facts.primaryColor
+            }</p>
             <button class="flip-btn">Leer menos</button>
           </div>
         </div>
@@ -62,20 +66,20 @@ export function renderPokemonList(pokemonList) {
 
     // Event listener para mostrar detalles al hacer clic en "Leer más"
     const flipBtn = li.querySelectorAll(".flip-btn");
-    flipBtn.forEach(btn => {
+    flipBtn.forEach((btn) => {
       btn.addEventListener("click", () => {
-        const cardInner = btn.closest('.card-inner');
-        cardInner.classList.toggle('flip');
-        
-        const cardFront = cardInner.querySelector('.card-front');
-        const cardBack = cardInner.querySelector('.card-back');
-        
-        if (cardInner.classList.contains('flip')) {
-          cardBack.classList.remove('hidden');
-          cardFront.classList.add('hidden');
+        const cardInner = btn.closest(".card-inner");
+        cardInner.classList.toggle("flip");
+
+        const cardFront = cardInner.querySelector(".card-front");
+        const cardBack = cardInner.querySelector(".card-back");
+
+        if (cardInner.classList.contains("flip")) {
+          cardBack.classList.remove("hidden");
+          cardFront.classList.add("hidden");
         } else {
-          cardBack.classList.add('hidden');
-          cardFront.classList.remove('hidden');
+          cardBack.classList.add("hidden");
+          cardFront.classList.remove("hidden");
         }
       });
     });
@@ -83,4 +87,3 @@ export function renderPokemonList(pokemonList) {
     pokemonListElement.appendChild(li);
   });
 }
-
