@@ -15,15 +15,15 @@
 <body>
 
   <script src="main.js" type="module"></script>
-  <header id="miHeader" class="titulo-con-logo">
-    <h1>pokemon-card</h1>
+  <header>
+    <h1></h1>
     <img src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Pok%C3%A9mon_Trading_Card_Game_logo.svg" alt="logo de pokemon">
   </header>
-
-  <main>
+  
+    <main>
     <div class="botones desplegables">
       <label for="elemental">ELEMENTOS:</label>
-      <select id="elemental" name="elementos" data-testid="select-elementos" class="miSelect">
+      <select id="elemental" name="elementos" data-testid="select-elementos" >
         <option value="Todo">Todo</option>
         <option value="Planta">Planta</option>
         <option value="Agua">Agua</option>
@@ -42,7 +42,7 @@
       </select>
 
       <label for="weakness">DEBILIDAD:</label>
-      <select id="weakness" name="debilidad" data-testid="select-debilidad" class="miSelect">
+      <select id="weakness" name="debilidad" data-testid="select-debilidad" >
         <option value="Todo">Todo</option>
         <option value="Planta">Planta</option>
         <option value="Agua">Agua</option>
@@ -63,7 +63,7 @@
         <option value="Dragon">Dragon</option>
       </select>
       <label for="order">CARACTERISTICA:</label>
-      <select id="order" name="ordenar" data-testid="select-ordenar" class="miSelect">
+      <select id="order" name="ordenar" data-testid="select-ordenar" >
         <option value="Numero">Numero</option>
         <option value="Nombre">Nombre</option>
         <option value="Generación">Generación</option>
@@ -72,7 +72,7 @@
         <option value="Velocidad">Velocidad</option>
       </select>
       <label for="word">ALFABETICAMENTE:</label>
-      <select id="word" name="alfabeto" class="miSelect">
+      <select id="word" name="alfabeto" >
         <option value="">Mostrar todo</option>
         <option value="a">A</option>
         <option value="b">B</option>
@@ -113,10 +113,10 @@
       </ul>
     </div>
   </main>
-</body>
-
-<footer>
+  <footer>
     <p>Programa Pokémon Cards desarrollado por Daniela Trejo & Dinah Gomez</p>
   </footer>
+</body>
+
 
 </html>

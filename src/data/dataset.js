@@ -1,5 +1,6 @@
 export default [
   {
+    
     id: "bulbasaur",
     name: "Bulbasaur",
     type: ["Planta", "Veneno"],

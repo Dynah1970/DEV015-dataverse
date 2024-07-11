@@ -13,20 +13,20 @@ export function filterPokemonByWeakness(data, weaknessValue) {
 // Ordena los Pokémon por la característica seleccionada
 export function filterPokemonByOrder(data, order) {
   switch (order) {
-    case 'Numero':
-      return data.sort((a, b) => a.number - b.number);
-    case 'Nombre':
-      return data.sort((a, b) => a.name.localeCompare(b.name));
-    case 'Generación':
-      return data.sort((a, b) => a.generation - b.generation);
-    case 'Ataque':
-      return data.sort((a, b) => b.attack - a.attack);
-    case 'Defensa':
-      return data.sort((a, b) => b.defense - a.defense);
-    case 'Velocidad':
-      return data.sort((a, b) => b.speed - a.speed);
-    default:
-      return data;
+  case 'Numero':
+    return data.sort((a, b) => a.number - b.number);
+  case 'Nombre':
+    return data.sort((a, b) => a.name.localeCompare(b.name));
+  case 'Generación':
+    return data.sort((a, b) => a.generation - b.generation);
+  case 'Ataque':
+    return data.sort((a, b) => b.attack - a.attack);
+  case 'Defensa':
+    return data.sort((a, b) => b.defense - a.defense);
+  case 'Velocidad':
+    return data.sort((a, b) => b.speed - a.speed);
+  default:
+    return data;
   }
 }
 

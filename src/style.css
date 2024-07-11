@@ -1,3 +1,10 @@
+header {
+  background-color: #ffffff;
+  padding: 10px;
+  text-align: center;
+}
+
+
 /* Estilos para el contenedor principal */
 body {
   font-family: Arial, sans-serif;
@@ -7,7 +14,7 @@ body {
 }
 
 /* Estilos para el encabezado con el logo */
-.titulo-con-logo {
+header {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,7 +25,7 @@ body {
   overflow: hidden;
 }
 
-.titulo-con-logo img {
+header img {
   width: 100%;
   height: auto;
   max-height: 150px; /* Ajustar la altura máxima según sea necesario */
@@ -27,7 +34,7 @@ body {
 }
 
 /* Ocultar el título si no es necesario */
-.titulo-con-logo h1 {
+header h1 {
   display: none;
 }
 
@@ -60,7 +67,7 @@ body {
 }
 
 botones select:nth-of-type(3) {
-  background-color: white; /* Blanco */
+  background-color: red; /* Blanco */
   color: black;
 }
 
@@ -160,6 +167,10 @@ ul#pokemon-list li:hover .details {
   display: none;
 }
 
+li {
+ color:black/* Estilos para elementos <li> */
+}
+
 /* Estilos para el botón "Leer más" y "Leer menos" */
 .flip-btn {
   background-color: red; /* Cambia el color a rojo */
@@ -174,5 +185,10 @@ ul#pokemon-list li:hover .details {
 
 .flip-btn:hover {
   background-color: darkred; /* Color más oscuro al hacer hover */
+}
+footer {
+  background-color: #f0f0f0;
+  padding: 10px;
+  text-align: center;
 }
 

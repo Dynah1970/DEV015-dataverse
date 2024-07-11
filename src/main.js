@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
   function handleWordChange() {
     const wordValue = document.querySelector("#word").value;
     const wordPokemon = filterPokemonByWord(data, wordValue);
-    renderPokemonList(wordPokemon); // Aquí puede haber un error tipográfico, debería ser `renderItems` en lugar de `renderPokemonList`
+    renderItems(wordPokemon); // Aquí puede haber un error tipográfico, debería ser `renderItems` en lugar de `renderPokemonList`
   }
 
   // Evento de clic en el botón de borrar
@@ -80,6 +80,7 @@ document.addEventListener("DOMContentLoaded", () => {
       if (facts) {
         facts.style.display = "none";
       }
+      
     }
   });
 
