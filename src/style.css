@@ -66,9 +66,9 @@ header h1 {
   color: white;
 }
 
-botones select:nth-of-type(3) {
-  background-color: red; /* Blanco */
-  color: black;
+.botones select:nth-of-type(3) {
+  background-color: orangered; /* Naranja */
+  color: white;
 }
 
 .botones select:nth-of-type(4) {
@@ -78,7 +78,7 @@ botones select:nth-of-type(3) {
 
 /* Estilos para el botón "BORRAR" */
 #clear {
-  background-color: #ff4500; /* Naranja */
+  background-color: black; /* Naranja */
   color: white;
   border: none;
   padding: 10px 20px;
@@ -105,7 +105,7 @@ ul#pokemon-list {
 
 ul#pokemon-list li {
   width: 250px;
-  background-color: #fff;
+  background-color: white;
   border: 1px solid #ccc;
   padding: 15px;
   border-radius: 8px;

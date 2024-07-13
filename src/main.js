@@ -8,9 +8,21 @@ import {
   clearFiltersAndSort,
 } from "./dataFunctions.js";
 
+// Nueva función para calcular el promedio de velocidad
+function calculateAverageSpeed(pokemonList) {
+  const totalSpeed = pokemonList
+    .map(pokemon => pokemon.speed)
+    .reduce((acc, speed) => acc + speed, 0);
+  return (totalSpeed / pokemonList.length).toFixed(2);
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   function initializeApp() {
     renderItems(data);
+
+    // Calcular y mostrar el promedio de velocidad
+    const averageSpeed = calculateAverageSpeed(data);
+    document.getElementById("average-speed").textContent = `Promedio de Velocidad: ${averageSpeed}`;
   }
 
   // Evento de cambio en el filtro de elementos
@@ -18,6 +30,10 @@ document.addEventListener("DOMContentLoaded", () => {
     const elementalValue = document.querySelector("#elemental").value;
     const elementalPokemon = filterPokemonByElemental(data, elementalValue);
     renderItems(elementalPokemon);
+
+    // Actualizar promedio de velocidad
+    const averageSpeed = calculateAverageSpeed(elementalPokemon);
+    document.getElementById("average-speed").textContent =` Promedio de Velocidad: ${averageSpeed}`;
   }
 
   // Evento de cambio en el filtro de debilidad
@@ -25,6 +41,10 @@ document.addEventListener("DOMContentLoaded", () => {
     const weaknessValue = document.querySelector("#weakness").value;
     const weaknessPokemon = filterPokemonByWeakness(data, weaknessValue);
     renderItems(weaknessPokemon);
+
+    // Actualizar promedio de velocidad
+    const averageSpeed = calculateAverageSpeed(weaknessPokemon);
+    document.getElementById("average-speed").textContent =` Promedio de Velocidad: ${averageSpeed}`;
   }
 
   // Evento de cambio en la selección de ordenamiento
@@ -32,6 +52,10 @@ document.addEventListener("DOMContentLoaded", () => {
     const orderValue = document.querySelector("#order").value;
     const orderPokemon = filterPokemonByOrder(data, orderValue);
     renderItems(orderPokemon);
+
+    // Actualizar promedio de velocidad
+    const averageSpeed = calculateAverageSpeed(orderPokemon);
+    document.getElementById("average-speed").textContent =` Promedio de Velocidad: ${averageSpeed}`;
   }
 
   // Evento de cambio en la selección de palabra
@@ -39,6 +63,11 @@ document.addEventListener("DOMContentLoaded", () => {
     const wordValue = document.querySelector("#word").value;
     const wordPokemon = filterPokemonByWord(data, wordValue);
     renderItems(wordPokemon); // Aquí puede haber un error tipográfico, debería ser `renderItems` en lugar de `renderPokemonList`
+ 
+    // Actualizar promedio de velocidad
+    const averageSpeed = calculateAverageSpeed(wordPokemon);
+    document.getElementById("average-speed").textContent =` Promedio de Velocidad: ${averageSpeed}`;
+   
   }
 
   // Evento de clic en el botón de borrar
@@ -49,6 +78,10 @@ document.addEventListener("DOMContentLoaded", () => {
     document.querySelector("#word").value = "";
     const clearedData = clearFiltersAndSort(data);
     renderItems(clearedData);
+
+    // Actualizar promedio de velocidad
+    const averageSpeed = calculateAverageSpeed(clearedData);
+    document.getElementById("average-speed").textContent =` Promedio de Velocidad: ${averageSpeed}`;
   }
 
   // Asignar event listeners

@@ -2,7 +2,7 @@
 export function renderItems(pokemonList) {
   const pokemonListElement = document.getElementById("pokemon-list");
   pokemonListElement.innerHTML = "";
-  
+
   pokemonList.forEach((pokemon) => {
     const li = document.createElement("li");
     li.setAttribute("itemscope", "true");
@@ -53,13 +53,9 @@ export function renderItems(pokemonList) {
             <p><strong>DEFENSA:</strong> ${pokemon.defense}</p>
             <p><strong>VELOCIDAD:</strong> ${pokemon.speed}</p>
             <p><strong>DATOS CURIOSOS:</strong></p>
-            <p><strong>POKEDEX NUMERO:</strong> ${
-  pokemon.facts.pokedexNumber
-}</p>
+            <p><strong>POKEDEX NUMERO:</strong> ${ pokemon.facts.pokedexNumber}</p>
             <p><strong>HABILIDAD:</strong> ${pokemon.facts.ability}</p>
-            <p><strong>COLOR PRINCIPAL:</strong> ${
-  pokemon.facts.primaryColor
-}</p>
+            <p><strong>COLOR PRINCIPAL:</strong> ${pokemon.facts.primaryColor}</p>
             <button class="flip-btn">Leer menos</button>
           </div>
         </div>
@@ -67,8 +63,8 @@ export function renderItems(pokemonList) {
     `;
 
     // Event listener para mostrar detalles al hacer clic en "Leer más"
-    const flipBtn = li.querySelectorAll(".flip-btn");
-    flipBtn.forEach((btn) => {
+    const flipBtns = li.querySelectorAll(".flip-btn");
+    flipBtns.forEach((btn) => {
       btn.addEventListener("click", () => {
         const cardInner = btn.closest(".card-inner");
         cardInner.classList.toggle("flip");
