@@ -24,7 +24,8 @@ La interacción del usuario se potencia con herramientas estadísticas que brind
 
 ## 2. RESUMEN
 
-![Vista previa del proyecto](link a tu imagen de vista previa del proyecto)
+<img width="920" alt="image" src="https://github.com/user-attachments/assets/beb79316-a0d0-4302-ae82-f1c72d777fb4">
+
 
 En este proyecto, desarrollamos una página web para explorar un conjunto de datos creado mediante la inteligencia artificial a través de instrucciones específicas. La estructura de la página se ajustó considerando las necesidades de los usuarios, utilizando historias de usuario para su adaptación.
 
@@ -146,7 +147,7 @@ La aplicación debió aprobar los siguientes test para considerarse como un buen
 
 #### CSS
 
-- **Uso de selectores de CSS**
+**Uso de selectores de CSS**
   - Uso de selector class para los items `<li>`.
   - Uso de flexbox en sentido row y column.
   - Uso de flexbox para el elemento que contiene los items.
