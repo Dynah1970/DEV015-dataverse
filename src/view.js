@@ -8,6 +8,7 @@ export function renderItems(pokemonList) {
     li.setAttribute("itemscope", "true");
     li.setAttribute("itemtype", "http://schema.org/ItemPokemon");
 
+
     const imageUrl = pokemon.imageUrl
       ? `<img src="${pokemon.imageUrl}" alt="${pokemon.name}" itemprop="imageUrl">`
       : "";
@@ -87,12 +88,16 @@ export function renderItems(pokemonList) {
   return pokemonListElement;  // Devuelve el elemento que contiene la lista
 }
 
+
+
 // Modificación de renderDOM
 function renderDOM(pokemonList) {
   const rootElement = document.querySelector('#root');
 
   const items = renderItems(pokemonList);
   
+
+
   if (items instanceof HTMLElement) {
     rootElement.appendChild(items);
   } else {
