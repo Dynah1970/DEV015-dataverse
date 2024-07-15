@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PokemonGame</title>
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+
+  <script src="main.js" type="module"></script>
+  <header>
+    <h1></h1>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Pok%C3%A9mon_Trading_Card_Game_logo.svg" alt="logo de pokemon">
+  </header>
+  
+    <main>
+    <div class="botones desplegables">
+      <label for="elemental">ELEMENTOS:</label>
+      <select id="elemental" name="elementos" data-testid="select-elementos" >
+        <option value="Todo">Todo</option>
+        <option value="Planta">Planta</option>
+        <option value="Agua">Agua</option>
+        <option value="Fuego">Fuego</option>
+        <option value="Veneno">Veneno</option>
+        <option value="Psiquico">Psiquico</option>
+        <option value="Volador">Volador</option>
+        <option value="Fantasma">Fantasma</option>
+        <option value="Electrico">Electrico</option>
+        <option value="Normal">Normal</option>
+        <option value="Hada">Hada</option>
+        <option value="Acero">Acero</option>
+        <option value="Lucha">Lucha</option>
+        <option value="Siniestro">Siniestro</option>
+        <option value="Dragon">Dragon</option>
+      </select>
+
+      <label for="weakness">DEBILIDAD:</label>
+      <select id="weakness" name="debilidad" data-testid="select-debilidad" >
+        <option value="Todo">Todo</option>
+        <option value="Planta">Planta</option>
+        <option value="Agua">Agua</option>
+        <option value="Fuego">Fuego</option>
+        <option value="Hielo">Hielo</option>
+        <option value="Tierra">Tierra</option>
+        <option value="Roca">Roca</option>
+        <option value="Bicho">Bicho</option>
+        <option value="Veneno">Veneno</option>
+        <option value="Psiquico">Psiquico</option>
+        <option value="Volador">Volador</option>
+        <option value="Fantasma">Fantasma</option>
+        <option value="Electrico">Electrico</option>
+        <option value="Hada">Hada</option>
+        <option value="Acero">Acero</option>
+        <option value="Lucha">Lucha</option>
+        <option value="Siniestro">Siniestro</option>
+        <option value="Dragon">Dragon</option>
+      </select>
+      <label for="order">CARACTERISTICA:</label>
+      <select id="order" name="ordenar" data-testid="select-ordenar" >
+        <option value="Numero">Numero</option>
+        <option value="Nombre">Nombre</option>
+        <option value="Generación">Generación</option>
+        <option value="Ataque">Ataque</option>
+        <option value="Defensa">Defensa</option>
+        <option value="Velocidad">Velocidad</option>
+      </select>
+      <label for="word">ALFABETICAMENTE:</label>
+      <select id="word" name="alfabeto" >
+        <option value="">Mostrar todo</option>
+        <option value="a">A</option>
+        <option value="b">B</option>
+        <option value="c">C</option>
+        <option value="d">D</option>
+        <option value="e">E</option>
+        <option value="f">F</option>
+        <option value="g">G</option>
+        <option value="h">H</option>
+        <option value="i">I</option>
+        <option value="j">J</option>
+        <option value="k">K</option>
+        <option value="l">L</option>
+        <option value="m">M</option>
+        <option value="n">N</option>
+        <option value="o">O</option>
+        <option value="p">P</option>
+        <option value="q">Q</option>
+        <option value="r">R</option>
+        <option value="s">S</option>
+        <option value="t">T</option>
+        <option value="u">U</option>
+        <option value="v">V</option>
+        <option value="w">W</option>
+        <option value="x">X</option>
+        <option value="y">Y</option>
+        <option value="z">Z</option>
+        <option value="z-a">Z - A</option>
+      </select>
+      <button id="clear" data-testid="button-borrar">LIMPIAR</button>
+    </div>
+
+    <!-- Contenedor para promedio de velocidad -->
+    <div id="average-speed" style="text-align: center; margin-top: 20px; font-size: 1.2em;">
+      <!-- Aquí se mostrará el promedio de velocidad -->
+    </div>
+
+    <div id="root">
+      <ul id="pokemon-list"
+       itemscope
+       itemtype="http://schema.org/ItemList">
+        <!-- los elementos <li> estan justificados en view --> 
+      </ul>
+    </div>
+  </main>
+  
+  <footer>
+    <p>Programa Pokémon Cards desarrollado por Daniela Trejo &amp; Dinah Gomez</p>
+  </footer>
+</body>
+
+
+</html>
