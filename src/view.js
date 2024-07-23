@@ -29,61 +29,58 @@ export function renderPokemonList(pokemonList) {
     const shortDescription = pokemon.shortDescription
       ? `<p><strong>PEQUEÑA DESCRIPCION:</strong> ${pokemon.shortDescription}</p>`
       : "";
-    const description = pokemon.description
-      ? `<p><strong>DESCRIPCION:</strong> ${pokemon.description}</p>`
-      : "";
-    const weakness = pokemon.weakness
-      ? `<p><strong>DEBILIDAD:</strong> ${pokemon.weakness.join(", ")}</p>`
-      : "";
-    const attack = pokemon.attack
-      ? `<p><strong>ATAQUE:</strong> ${pokemon.attack}</p>`
-      : "";
-    const defense = pokemon.defense
-      ? `<p><strong>DEFENSA:</strong> ${pokemon.defense}</p>`
-      : "";
-    const speed = pokemon.speed
-      ? `<p><strong>VELOCIDAD:</strong> ${pokemon.speed}</p>`
-      : "";
-
-    const facts = pokemon.facts
-      ? `
-      <h4>DATOS CURIOSOS</h4>
-      <p><strong>NUMERO EN LA POKEDEX:</strong> ${pokemon.facts.pokedexNumber}</p>
-      <p><strong>HABLAR:</strong> ${pokemon.facts.ability}</p>
-      <p><strong>COLOR:</strong> ${pokemon.facts.primaryColor}</p>
-    `
-      : "";
 
     li.innerHTML = `
-      <div> 
-        ${image}
-        ${name}
-        ${type}
-        ${generation}
-        ${region}
-        ${number}
-        ${rarity}
-        ${shortDescription}
-        ${description}
-        ${weakness}
-        ${attack}
-        ${defense}
-        ${speed}
-        ${facts}
-
-        
-       
+      <div class="pokemon-card"> 
+        <div class="card-inner">
+          <div class="card-front">
+            ${image}
+            ${name}
+            ${type}
+            ${generation}
+            ${region}
+            ${number}
+            ${rarity}
+            ${shortDescription}
+            <button class="flip-btn">Leer más</button>
+          </div>
+          <div class="card-back hidden">
+            <p><strong>DESCRIPCION:</strong> ${pokemon.description}</p>
+            <p><strong>DEBILIDAD:</strong> ${pokemon.weakness.join(", ")}</p>
+            <p><strong>ATAQUE:</strong> ${pokemon.attack}</p>
+            <p><strong>DEFENSA:</strong> ${pokemon.defense}</p>
+            <p><strong>VELOCIDAD:</strong> ${pokemon.speed}</p>
+            <p><strong>DATOS CURIOSOS:</strong></p>
+            <p><strong>POKEDEX NUMERO:</strong> ${pokemon.facts.pokedexNumber}</p>
+            <p><strong>HABILIDAD:</strong> ${pokemon.facts.ability}</p>
+            <p><strong>COLOR PRINCIPAL:</strong> ${pokemon.facts.primaryColor}</p>
+            <button class="flip-btn">Leer menos</button>
+          </div>
+        </div>
       </div>
-      
     `;
 
-    // Agregar evento de clic para imprimir información en la consola
-    li.addEventListener("click", () => {
-      //console.log(`Detalles del Pokémon ${pokemon.name}:`);
-      // console.log(pokemon);
+    // Event listener para mostrar detalles al hacer clic en "Leer más"
+    const flipBtn = li.querySelectorAll(".flip-btn");
+    flipBtn.forEach(btn => {
+      btn.addEventListener("click", () => {
+        const cardInner = btn.closest('.card-inner');
+        cardInner.classList.toggle('flip');
+        
+        const cardFront = cardInner.querySelector('.card-front');
+        const cardBack = cardInner.querySelector('.card-back');
+        
+        if (cardInner.classList.contains('flip')) {
+          cardBack.classList.remove('hidden');
+          cardFront.classList.add('hidden');
+        } else {
+          cardBack.classList.add('hidden');
+          cardFront.classList.remove('hidden');
+        }
+      });
     });
 
-    
     pokemonListElement.appendChild(li);
   });
 }
+
