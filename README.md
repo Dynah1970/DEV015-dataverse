@@ -121,6 +121,7 @@ A lo largo del proyecto, hemos implementado un total de 10 pruebas unitarias que
 ## 9. DEPLOY
 
 La aplicación se encuentra publicada a través de Github Pages, accesible a todo usuario.
+https://dynah1970.github.io/DEV015-dataverse/
 
 ## 10. CRITERIOS DE ACEPTACIÓN MÍNIMOS DEL PROYECTO
 
