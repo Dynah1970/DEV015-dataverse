@@ -20,11 +20,11 @@
     <img src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Pok%C3%A9mon_Trading_Card_Game_logo.svg" alt="logo de pokemon">
   </header>
   
-    <main>
-    <div class="botones desplegables">
-      <label for="elemental">ELEMENTOS:</label>
-      <select id="elemental" name="elementos" data-testid="select-elementos" >
-        <option value="Todo">Todo</option>
+  <main>
+    <div class="botones desplegables">  <!-- lo estamos usando como un contenedor genérico, para agrupar elementos HTML. clases, botones y desplegables, se utilizan para aplicar estilos CSS específicos a este contenedor y a los elementos dentro de él. -->
+      <label for="elemental">ELEMENTOS:</label> <!-- etiqueta, está asociada con el elemento <select> que tiene el atributo id="elemental". El atributo for en la etiqueta <label> establece una conexión con el <select> correspondiente, -->
+      <select id="elemental" name="elementos" data-testid="select-elementos" > <!-- id Proporciona un identificador único para el menú desplegable. atributo es utilizado para propósitos de (testing), seleccionar este elemento específico en el DOM. -->
+        <option value="Todo">Todo</option>  <!-- etiqueta opción dentro del menú desplegable. Los atributos y contenidos son: v= El valor asociado a esta opción, que se envía al formulario si esta opción está seleccionada. todo texto usuario -->
         <option value="Planta">Planta</option>
         <option value="Agua">Agua</option>
         <option value="Fuego">Fuego</option>
@@ -62,6 +62,7 @@
         <option value="Siniestro">Siniestro</option>
         <option value="Dragon">Dragon</option>
       </select>
+
       <label for="order">CARACTERISTICA:</label>
       <select id="order" name="ordenar" data-testid="select-ordenar" >
         <option value="Numero">Numero</option>
@@ -71,6 +72,7 @@
         <option value="Defensa">Defensa</option>
         <option value="Velocidad">Velocidad</option>
       </select>
+
       <label for="word">ALFABETICAMENTE:</label>
       <select id="word" name="alfabeto" >
         <option value="">Mostrar todo</option>
@@ -102,27 +104,30 @@
         <option value="z">Z</option>
         <option value="z-a">Z - A</option>
       </select>
-      <button id="clear" data-testid="button-borrar">LIMPIAR</button>
+
+      <button id="clear" data-testid="button-borrar">LIMPIAR</button> <!-- botón "LIMPIAR", que tiene un identificador id=clear, para su manipulación y un atributo data-testid para propósitos de prueba. --> 
     </div>
 
     <!-- Contenedor para promedio de velocidad -->
-    <div id="average-speed" style="text-align: center; margin-top: 20px; font-size: 1.2em;">
+    <div id="average-speed" style="text-align: center; margin-top: 20px; font-size: 1.2em;"><!--  crea id contenedor de bloque único para seleccionar en otros archivos,--> 
       <!-- Aquí se mostrará el promedio de velocidad -->
     </div>
 
-    <div id="root">
-      <ul id="pokemon-list"
+    <div id="root"> <!-- renderizar contenido dinámico, como la lista de Pokémon. -->
+      <ul id="pokemon-list"  
        itemscope
        itemtype="http://schema.org/ItemList">
-        <!-- los elementos <li> estan justificados en view --> 
+        <!-- los elementos <li> están justificados en view --> 
+        <!-- este elemento y sus descendientes forman un scope (alcance) de datos estructurados.
+         Define el tipo de datos estructurados utilizando la especificación de Schema.org. En este caso, indica que el elemento es una lista de ítems.--> 
       </ul>
-    </div>
+    </div> 
+
   </main>
   
   <footer>
-    <p>Programa Pokémon Cards desarrollado por Daniela Trejo &amp; Dinah Gomez</p>
+    <p>Programa Pokémon Cards desarrollado por Daniela Trejo &amp; Dinah Gomez, derechos reservados</p>
   </footer>
-</body>
+  </body>
+  </html>
 
-
-</html>

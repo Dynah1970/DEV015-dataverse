@@ -1,194 +1,199 @@
+/* Estilos para el encabezado */
 header {
-  background-color: #ffffff;
-  padding: 10px;
-  text-align: center;
+  background-color: #ffffff; /* Color de fondo blanco */
+  padding: 10px; /* Espacio interior alrededor del contenido */
+  text-align: center; /* Alineación centrada del contenido */
 }
 
 
 /* Estilos para el contenedor principal */
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
-  margin: 0;
-  padding: 0;
+  font-family: Arial, sans-serif; /* Fuente de texto */
+  background-color: #f0f0f0; /* Color de fondo gris claro */
+  margin: 0; /* Elimina el margen por defecto */
+  padding: 0; /* Elimina el padding por defecto */
 }
 
 /* Estilos para el encabezado con el logo */
 header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0;
-  background-color: #333;
-  width: 100%;
-  height: 150px; /* Ajustar la altura según sea necesario */
-  overflow: hidden;
+  display: flex; /* Utiliza flexbox para alinear elementos */
+  justify-content: center; /* Alinea el contenido en el centro horizontalmente */
+  align-items: center; /* Alinea el contenido en el centro verticalmente */
+  padding: 0; /* Espacio interior alrededor del contenido */
+  background-color: #333; /* Color de fondo negro */
+  width: 100%; /* Ancho completo */
+  height: 150px; /* Altura fija */
+  overflow: hidden; /* Oculta el contenido que se desborde */
 }
 
 header img {
-  width: 100%;
-  height: auto;
-  max-height: 150px; /* Ajustar la altura máxima según sea necesario */
-  object-fit: contain;
-  margin: 0;
+  width: 100%; /* Ancho completo */
+  height: auto; /* Altura automática */
+  max-height: 150px; /* Altura máxima */
+  object-fit: contain; /* Contiene la imagen dentro del contenedor */
+  margin: 0; /* Sin margen */
 }
 
 /* Ocultar el título si no es necesario */
 header h1 {
-  display: none;
+  display: none; /* No mostrar el título */
 }
 
 /* Estilos para el contenedor de botones y selects */
 .botones {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 20px;
+  display: flex; /* Utiliza flexbox para alinear elementos */
+  justify-content: space-around; /* Espacio alrededor de los elementos */
+  align-items: center; /* Alinea los elementos verticalmente en el centro */
+  margin-top: 20px; /* Margen superior */
 }
 
 .botones select,
 .botones button {
-  padding: 10px;
-  font-size: 14px;
-  border-radius: 4px;
-  cursor: pointer;
+  padding: 10px; /* Espacio interior */
+  font-size: 14px; /* Tamaño de la fuente */
+  border-radius: 4px; /* Bordes redondeados */
+  cursor: pointer; /* Cambia el cursor al pasar el ratón */
   margin-right: 10px; /* Espacio entre botones */
 }
 
 /* Colores para los botones desplegables */
 .botones select:nth-of-type(1) {
-  background-color: yellow; /* Amarillo */
-  color: black;
+  background-color: yellow; /* Color de fondo amarillo */
+  color: black; /* Color del texto negro */
 }
 
 .botones select:nth-of-type(2) {
-  background-color: blue; /* Azul */
-  color: white;
+  background-color: blue; /* Color de fondo azul */
+  color: white; /* Color del texto blanco */
 }
 
 .botones select:nth-of-type(3) {
-  background-color: orangered; /* Naranja */
-  color: white;
+  background-color: orangered; /* Color de fondo naranja */
+  color: white; /* Color del texto blanco */
 }
 
 .botones select:nth-of-type(4) {
-  background-color: green; /* Verde */
-  color: white;
+  background-color: green; /* Color de fondo verde */
+  color: white; /* Color del texto blanco */
 }
 
 /* Estilos para el botón "BORRAR" */
 #clear {
-  background-color: black; /* Naranja */
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  font-size: 14px;
-  cursor: pointer;
-  border-radius: 4px;
-  transition: background-color 0.3s ease;
+  background-color: black; /* Color de fondo negro */
+  color: white; /* Color del texto blanco */
+  border: none; /* Sin borde */
+  padding: 10px 20px; /* Espacio interior */
+  font-size: 14px; /* Tamaño de la fuente */
+  cursor: pointer; /* Cambia el cursor al pasar el ratón */
+  border-radius: 4px; /* Bordes redondeados */
+  transition: background-color 0.3s ease; /* Transición suave al cambiar el color de fondo */
 }
 
 #clear:hover {
-  background-color: #cc3700; /* Naranja más oscuro al hacer hover */
+  background-color: #cc3700; /* Color de fondo naranja oscuro al hacer hover */
 }
 
 /* Estilos para la lista de Pokémon */
 ul#pokemon-list {
-  list-style-type: none;
-  padding: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
+  list-style-type: none; /* Sin estilo de lista por defecto */
+  padding: 20px; /* Espacio interior */
+  display: flex; /* Utiliza flexbox para alinear elementos */
+  flex-wrap: wrap; /* Permite que los elementos se envuelvan a la siguiente línea */
+  gap: 20px; /* Espacio entre elementos */
+  justify-content: center; /* Alinea los elementos en el centro */
   background-color: #333; /* Fondo negro para el contenedor de las tarjetas */
 }
 
 ul#pokemon-list li {
-  width: 250px;
-  background-color: white;
-  border: 1px solid #ccc;
-  padding: 15px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  position: relative;
-  overflow: hidden;
-  transition: transform 0.3s ease;
+  width: 250px; /* Ancho fijo */
+  background-color: white; /* Fondo blanco */
+  border: 1px solid #ccc; /* Borde gris claro */
+  padding: 15px; /* Espacio interior */
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra de caja */
+  position: relative; /* Posición relativa */
+  overflow: hidden; /* Oculta el contenido que se desborde */
+  transition: transform 0.3s ease; /* Transición suave para la transformación */
 }
 
 ul#pokemon-list li:hover {
-  transform: scale(1.03);
+  transform: scale(1.03); /* Escala ligeramente al hacer hover */
 }
 
 ul#pokemon-list li img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
+  width: 100%; /* Ancho completo */
+  height: auto; /* Altura automática */
+  border-radius: 8px; /* Bordes redondeados */
 }
 
 ul#pokemon-list li h3 {
-  font-size: 1.2em;
-  margin-top: 0.5em;
+  font-size: 1.2em; /* Tamaño de la fuente */
+  margin-top: 0.5em; /* Margen superior */
 }
 
 ul#pokemon-list li p {
-  font-size: 0.9em;
-  margin-top: 0.5em;
+  font-size: 0.9em; /* Tamaño de la fuente */
+  margin-top: 0.5em; /* Margen superior */
 }
 
 ul#pokemon-list li .details {
-  display: none;
-  padding-top: 10px;
+  display: none; /* No mostrar los detalles por defecto */
+  padding-top: 10px; /* Espacio superior */
 }
 
 ul#pokemon-list li .details p {
-  margin-top: 5px;
+  margin-top: 5px; /* Margen superior */
 }
 
 ul#pokemon-list li .read-more-button {
-  background-color: #ff4500; /* Naranja */
-  color: white;
-  border: none;
-  padding: 8px 12px;
-  font-size: 14px;
-  cursor: pointer;
-  border-radius: 4px;
-  transition: background-color 0.3s ease;
+  background-color: #ff4500; /* Color de fondo naranja */
+  color: white; /* Color del texto blanco */
+  border: none; /* Sin borde */
+  padding: 8px 12px; /* Espacio interior */
+  font-size: 14px; /* Tamaño de la fuente */
+  cursor: pointer; /* Cambia el cursor al pasar el ratón */
+  border-radius: 4px; /* Bordes redondeados */
+  transition: background-color 0.3s ease; /* Transición suave al cambiar el color de fondo */
 }
 
 ul#pokemon-list li .read-more-button:hover {
-  background-color: #cc3700; /* Naranja más oscuro al hacer hover */
+  background-color: #cc3700; /* Color de fondo naranja oscuro al hacer hover */
 }
 
 ul#pokemon-list li:hover .details {
-  display: block;
+  display: block; /* Mostrar los detalles al hacer hover */
 }
 
 .hidden {
-  display: none;
+  display: none; /* No mostrar el elemento */
 }
 
+/* Estilos para los elementos <li> */
 li {
- color:black/* Estilos para elementos <li> */
+  color: black; /* Color del texto negro */
 }
 
 /* Estilos para el botón "Leer más" y "Leer menos" */
 .flip-btn {
-  background-color: red; /* Cambia el color a rojo */
-  color: white;
-  border: none;
-  padding: 8px 12px;
-  font-size: 14px;
-  cursor: pointer;
-  border-radius: 4px;
-  transition: background-color 0.3s ease;
+  background-color: red; /* Color de fondo rojo */
+  color: white; /* Color del texto blanco */
+  border: none; /* Sin borde */
+  padding: 8px 12px; /* Espacio interior */
+  font-size: 14px; /* Tamaño de la fuente */
+  cursor: pointer; /* Cambia el cursor al pasar el ratón */
+  border-radius: 4px; /* Bordes redondeados */
+  transition: background-color 0.3s ease; /* Transición suave al cambiar el color de fondo */
 }
 
 .flip-btn:hover {
-  background-color: darkred; /* Color más oscuro al hacer hover */
+  background-color: darkred; /* Color de fondo rojo oscuro al hacer hover */
 }
+
+/* Estilos para el pie de página */
 footer {
-  background-color: #f0f0f0;
-  padding: 10px;
-  text-align: center;
+  background-color: #f0f0f0; /* Color de fondo gris claro */
+  padding: 10px; /* Espacio interior */
+  text-align: center; /* Alineación centrada del texto */
 }
+
 
